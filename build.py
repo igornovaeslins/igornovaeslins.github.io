@@ -269,7 +269,7 @@ T = {
 "es": {
   "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Participaci&oacute;n p&uacute;blica"),("consulting","Consultor&iacute;a")],
   "tagline": "Gobernanza criminal y pol&iacute;tica en Am&eacute;rica Latina",
-  "kicker_index": "Cient&iacute;fico pol&iacute;tico",
+  "kicker_index": "Polit&oacute;logo",
   "current": "Doctorando, <strong>Universidad de Brasilia</strong> &middot; Investigador visitante, <strong>University of Illinois at Chicago</strong>",
   "footer": "&copy; 2026 Igor Novaes Lins",
   "skip_alt": "Igor Novaes Lins",
@@ -289,7 +289,7 @@ T = {
   },
   "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Participaci&oacute;n p&uacute;blica","consulting":"Investigaci&oacute;n y consultor&iacute;a"},
   "about": [
-     "Natural de S&atilde;o Paulo, soy cient&iacute;fico pol&iacute;tico, doctorando en la Universidad de Brasilia e investigador visitante en la Universidad de Illinois en Chicago. Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
+     "Natural de S&atilde;o Paulo, soy polit&oacute;logo, doctorando en la Universidad de Brasilia e investigador visitante en la Universidad de Illinois en Chicago. Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
      "Mis intereses son la gobernanza criminal, el comportamiento electoral, la violencia pol&iacute;tica y la pol&iacute;tica subnacional en Am&eacute;rica Latina, con atenci&oacute;n a la seguridad p&uacute;blica y la desigualdad racial.",
      "Mi trabajo vivi&oacute; dentro y fuera de la universidad. Fui investigador en el Instituto Igarap&eacute;, trabajando en seguridad p&uacute;blica y espacio c&iacute;vico, y firm&eacute; un informe sobre mujeres defensoras del medio ambiente en Per&uacute;, presentado en la COP28. Tambi&eacute;n trabaj&eacute; en el gobierno federal, donde lider&eacute; la estrategia del Ministerio de Igualdad Racial para la aprobaci&oacute;n de la ley de cuotas en la educaci&oacute;n superior, y coescrib&iacute; cap&iacute;tulos en <em>Rep&uacute;blica em Notas</em>, semifinalista del Premio Jabuti, sobre el sistema de m&eacute;rito del servicio p&uacute;blico.",
      "Desde 2026 me incorporo al CEBRAP, en S&atilde;o Paulo, como investigador posdoctoral. Soy licenciado y mag&iacute;ster en ciencia pol&iacute;tica por la Universidad de Brasilia, y trabajo en portugu&eacute;s, espa&ntilde;ol e ingl&eacute;s.",
