@@ -5,7 +5,7 @@ Static site generator for igornovaeslins.github.io
 Trilingual (EN / PT / ES), 5 pages, Economist-style sidebar layout.
 Run:  python3 build.py
 """
-import os
+import os, hashlib
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://igornovaeslins.github.io"
@@ -17,6 +17,13 @@ HAS_PHOTO = True
 OG_IMAGE = SITE + "/assets/portrait.jpg"
 MAP_URL = "https://igornovaeslins.github.io/mobilidade-raca-sp/mapa.html"
 NAME = "Igor Novaes Lins"
+
+def _css_ver():
+    try:
+        return hashlib.md5(open(os.path.join(ROOT, "style.css"), "rb").read()).hexdigest()[:8]
+    except Exception:
+        return "1"
+CSS_VER = _css_ver()
 
 def base(lang): return "/" if lang == DEFAULT else "/%s/" % lang
 def page_url(lang, page):
@@ -392,7 +399,8 @@ def render_jsonld(lang):
 </script>""" % SITE
 
 def render_page(lang, page):
-    return render_head(lang, page) + render_sidebar(lang, page) + render_main(lang, page) + "</body>\n</html>\n"
+    html = render_head(lang, page) + render_sidebar(lang, page) + render_main(lang, page) + "</body>\n</html>\n"
+    return html.replace('href="/style.css"', 'href="/style.css?v=%s"' % CSS_VER)
 
 def write(path, content):
     full = os.path.join(ROOT, path); d = os.path.dirname(full)
