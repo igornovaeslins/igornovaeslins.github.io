@@ -107,14 +107,22 @@ OPEDS = [
     'Lins, I. N. (2019). Supl&ecirc;ncia de deputados: parlamentar eleito depois das elei&ccedil;&otilde;es? <em>Politize!</em>',
 ]
 INTERVIEWS = [
-    'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <span class="venue">Entrevista, r&aacute;dio/TV.</span>',
-    'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <span class="venue">Coment&aacute;rio, r&aacute;dio/TV.</span>',
+    'Lins, I. N. (2025). Entrevista &agrave; r&aacute;dio sueca sobre o PL do licenciamento ambiental (&ldquo;PL da devasta&ccedil;&atilde;o&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
+    'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Persegui&ccedil;&atilde;o e viol&ecirc;ncia a ativistas e lideran&ccedil;as pol&iacute;ticas negras e perif&eacute;ricas. <span class="venue">Mesa redonda, r&aacute;dio/TV.</span>',
+]
+TALKS = [
+    'Audi&ecirc;ncia p&uacute;blica sobre publicidade ambiental enganosa (greenwashing), como coordenador de advocacy do Centro Brasileiro de Justi&ccedil;a Clim&aacute;tica. <span class="venue">C&acirc;mara dos Deputados, Comiss&atilde;o de Legisla&ccedil;&atilde;o Participativa, 2025.</span>',
+    'Justi&ccedil;a clim&aacute;tica e sa&uacute;de nas periferias. <span class="venue">Pal&aacute;cio do Planalto, pelo Centro Brasileiro de Justi&ccedil;a Clim&aacute;tica, 2025.</span>',
+    'Mudan&ccedil;as clim&aacute;ticas e seus impactos nas rela&ccedil;&otilde;es de trabalho. <span class="venue">Tribunal Superior do Trabalho, com OIT Brasil e MPT, 2025.</span>',
+    'Ilegalismos e produ&ccedil;&atilde;o da cidade: grupos armados, viol&ecirc;ncia pol&iacute;tica e voto. <span class="venue">Observat&oacute;rio de Favelas e Defensoria P&uacute;blica do Rio de Janeiro, 2025.</span>',
+    'Desaf&iacute;os de la cultura organizacional militar frente al acoso y abuso sexual. <span class="venue">Webinar, RESDAL, 2025.</span>',
 ]
 
 T = {
 "en": {
-  "nav": [("index","About"),("research","Research"),("writing","Writing"),("consulting","Consulting")],
+  "nav": [("index","About"),("research","Research"),("writing","Public engagement"),("consulting","Consulting")],
   "tagline": "Criminal governance and politics in Latin America",
   "kicker_index": "Political scientist",
   "current": "PhD candidate, <strong>University of Bras&iacute;lia</strong> &middot; Visiting researcher, <strong>University of Illinois at Chicago</strong>",
@@ -124,17 +132,17 @@ T = {
      "index": "Igor Novaes Lins &mdash; Criminal governance &amp; politics in Latin America",
      "research": "Research &mdash; Igor Novaes Lins",
      "publications": "Publications &mdash; Igor Novaes Lins",
-     "writing": "Writing &mdash; Igor Novaes Lins",
+     "writing": "Public engagement &mdash; Igor Novaes Lins",
      "consulting": "Consulting &mdash; Igor Novaes Lins",
   },
   "desc": {
      "index": "Igor Novaes Lins studies criminal governance and politics in Latin America — how armed criminal groups reshape political life, with Rio de Janeiro as the main case.",
      "research": "Research on criminal governance and the vote, the state and crime, collapse and gendered violence, and racial political violence in Latin America.",
      "publications": "Articles, book chapters, reports, and working papers by Igor Novaes Lins on criminal governance, elections, and political violence.",
-     "writing": "Op-eds and public writing by Igor Novaes Lins on crime, security, and democracy in Brazil.",
+     "writing": "Op-eds, interviews, and public engagement by Igor Novaes Lins on crime, security, climate, and democracy.",
      "consulting": "Data, maps, and reproducible analysis for organizations working on cities, security, and inequality in Latin America.",
   },
-  "page_h1": {"index":"About","research":"Research","publications":"Publications","writing":"Writing","consulting":"Research &amp; consulting"},
+  "page_h1": {"index":"About","research":"Research","publications":"Publications","writing":"Public engagement","consulting":"Research &amp; consulting"},
   "about": [
      "Born in S&atilde;o Paulo, I am a political scientist, a doctoral candidate at the University of Bras&iacute;lia and a visiting researcher at the University of Illinois at Chicago. I study how organized crime and political violence shape political life in Latin American cities, especially in Brazil, combining quantitative and qualitative methods.",
      "My interests are criminal governance, electoral behavior, political violence, and subnational politics in Latin America, with attention to public security and racial inequality.",
@@ -150,8 +158,8 @@ T = {
      ("Democratic institutions and civic space", "Beyond crime, I have worked on the institutions of democracy and the space for civic life. I have studied the merit-based civil service and the patronage that erodes it, and social movements that contest the boundaries of civic space. What links these to my main agenda is capture, how public institutions are taken over by private interests."),
   ],
   "groups": {"articles":"Peer-reviewed articles","chapters":"Book chapters","reports":"Technical reports","papers":"Working papers &amp; preprints"},
-  "writing_lead": "I write for broader audiences on crime, security, and democracy.",
-  "writing_groups": {"opeds": "Op-eds &amp; public writing", "media": "Interviews &amp; media"},
+  "writing_lead": "I take part in public debate on crime, security, climate, and democracy, through op-eds, the media, and public hearings.",
+  "writing_groups": {"talks": "Talks &amp; public hearings", "media": "Interviews &amp; media", "opeds": "Op-eds"},
   "pubs_label": "publications",
   "map_caption": "Where Black residents live in S&atilde;o Paulo, the bus runs slower. Bus speed by district, crossed with race and income. By Igor Novaes Lins.",
   "map_full": "Open full screen",
@@ -163,7 +171,7 @@ T = {
   ],
 },
 "pt": {
-  "nav": [("index","Sobre"),("research","Pesquisa"),("writing","Na m&iacute;dia"),("consulting","Consultoria")],
+  "nav": [("index","Sobre"),("research","Pesquisa"),("writing","Atua&ccedil;&atilde;o p&uacute;blica"),("consulting","Consultoria")],
   "tagline": "Governan&ccedil;a criminal e pol&iacute;tica na Am&eacute;rica Latina",
   "kicker_index": "Cientista pol&iacute;tico",
   "current": "Doutorando, <strong>Universidade de Bras&iacute;lia</strong> &middot; Pesquisador visitante, <strong>University of Illinois at Chicago</strong>",
@@ -173,17 +181,17 @@ T = {
      "index": "Igor Novaes Lins &mdash; Governan&ccedil;a criminal e pol&iacute;tica",
      "research": "Pesquisa &mdash; Igor Novaes Lins",
      "publications": "Publica&ccedil;&otilde;es &mdash; Igor Novaes Lins",
-     "writing": "Na m&iacute;dia &mdash; Igor Novaes Lins",
+     "writing": "Atua&ccedil;&atilde;o p&uacute;blica &mdash; Igor Novaes Lins",
      "consulting": "Consultoria &mdash; Igor Novaes Lins",
   },
   "desc": {
      "index": "Igor Novaes Lins estuda governança criminal e política na América Latina — como grupos criminais armados reconfiguram a vida política, tendo o Rio de Janeiro como caso principal.",
      "research": "Pesquisa sobre governança criminal e o voto, o Estado e o crime, colapso e violência de gênero, e violência política racial na América Latina.",
      "publications": "Artigos, capítulos, relatórios e working papers de Igor Novaes Lins sobre governança criminal, eleições e violência política.",
-     "writing": "Artigos de opinião e textos de Igor Novaes Lins sobre crime, segurança e democracia no Brasil.",
+     "writing": "Artigos, entrevistas e atuação pública de Igor Novaes Lins sobre crime, segurança, clima e democracia.",
      "consulting": "Dados, mapas e análise reprodutível para organizações que trabalham com cidades, segurança e desigualdade na América Latina.",
   },
-  "page_h1": {"index":"Sobre","research":"Pesquisa","publications":"Publica&ccedil;&otilde;es","writing":"Na m&iacute;dia","consulting":"Pesquisa e consultoria"},
+  "page_h1": {"index":"Sobre","research":"Pesquisa","publications":"Publica&ccedil;&otilde;es","writing":"Atua&ccedil;&atilde;o p&uacute;blica","consulting":"Pesquisa e consultoria"},
   "about": [
      "Natural de S&atilde;o Paulo, sou cientista pol&iacute;tico, doutorando na Universidade de Bras&iacute;lia e pesquisador visitante na Universidade de Illinois em Chicago. Estudo como o crime organizado e a viol&ecirc;ncia pol&iacute;tica moldam a vida pol&iacute;tica nas cidades latino-americanas, especialmente no Brasil, combinando m&eacute;todos quantitativos e qualitativos.",
      "Meus interesses s&atilde;o governan&ccedil;a criminal, comportamento eleitoral, viol&ecirc;ncia pol&iacute;tica e pol&iacute;tica subnacional na Am&eacute;rica Latina, com aten&ccedil;&atilde;o &agrave; seguran&ccedil;a p&uacute;blica e &agrave; desigualdade racial.",
@@ -199,8 +207,8 @@ T = {
      ("Institui&ccedil;&otilde;es democr&aacute;ticas e espa&ccedil;o c&iacute;vico", "Al&eacute;m do crime, trabalhei nas institui&ccedil;&otilde;es da democracia e no espa&ccedil;o da vida c&iacute;vica. Estudei o sistema de m&eacute;rito do servi&ccedil;o p&uacute;blico e o clientelismo que o corr&oacute;i, e os movimentos sociais que disputam os limites do espa&ccedil;o c&iacute;vico. O que liga isso &agrave; minha agenda principal &eacute; a captura, como institui&ccedil;&otilde;es p&uacute;blicas s&atilde;o tomadas por interesses privados."),
   ],
   "groups": {"articles":"Artigos em peri&oacute;dico","chapters":"Cap&iacute;tulos de livro","reports":"Relat&oacute;rios t&eacute;cnicos","papers":"Working papers e preprints"},
-  "writing_lead": "Escrevo para p&uacute;blicos amplos sobre crime, seguran&ccedil;a e democracia.",
-  "writing_groups": {"opeds": "Artigos de opini&atilde;o", "media": "Entrevistas e m&iacute;dia"},
+  "writing_lead": "Participo do debate p&uacute;blico sobre crime, seguran&ccedil;a, clima e democracia, em artigos, na m&iacute;dia e em audi&ecirc;ncias p&uacute;blicas.",
+  "writing_groups": {"talks": "Palestras e audi&ecirc;ncias p&uacute;blicas", "media": "Entrevistas e m&iacute;dia", "opeds": "Artigos de opini&atilde;o"},
   "pubs_label": "publica&ccedil;&otilde;es",
   "map_caption": "Onde mora a popula&ccedil;&atilde;o negra em S&atilde;o Paulo, o &ocirc;nibus anda mais devagar. Velocidade do transporte por distrito, cruzada com ra&ccedil;a e renda. Elabora&ccedil;&atilde;o: Igor Novaes Lins.",
   "map_full": "Ver em tela cheia",
@@ -212,7 +220,7 @@ T = {
   ],
 },
 "es": {
-  "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Opini&oacute;n"),("consulting","Consultor&iacute;a")],
+  "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Participaci&oacute;n p&uacute;blica"),("consulting","Consultor&iacute;a")],
   "tagline": "Gobernanza criminal y pol&iacute;tica en Am&eacute;rica Latina",
   "kicker_index": "Cient&iacute;fico pol&iacute;tico",
   "current": "Doctorando, <strong>Universidad de Brasilia</strong> &middot; Investigador visitante, <strong>University of Illinois at Chicago</strong>",
@@ -222,17 +230,17 @@ T = {
      "index": "Igor Novaes Lins &mdash; Gobernanza criminal y pol&iacute;tica",
      "research": "Investigaci&oacute;n &mdash; Igor Novaes Lins",
      "publications": "Publicaciones &mdash; Igor Novaes Lins",
-     "writing": "Opini&oacute;n &mdash; Igor Novaes Lins",
+     "writing": "Participaci&oacute;n p&uacute;blica &mdash; Igor Novaes Lins",
      "consulting": "Consultor&iacute;a &mdash; Igor Novaes Lins",
   },
   "desc": {
      "index": "Igor Novaes Lins estudia la gobernanza criminal y la política en América Latina — cómo los grupos criminales armados transforman la vida política, con Río de Janeiro como caso principal.",
      "research": "Investigación sobre gobernanza criminal y el voto, el Estado y el crimen, colapso y violencia de género, y violencia política racial en América Latina.",
      "publications": "Artículos, capítulos, informes y working papers de Igor Novaes Lins sobre gobernanza criminal, elecciones y violencia política.",
-     "writing": "Artículos de opinión de Igor Novaes Lins sobre crimen, seguridad y democracia en Brasil.",
+     "writing": "Artículos, entrevistas y participación pública de Igor Novaes Lins sobre crimen, seguridad, clima y democracia.",
      "consulting": "Datos, mapas y análisis reproducible para organizaciones que trabajan con ciudades, seguridad y desigualdad en América Latina.",
   },
-  "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Opini&oacute;n","consulting":"Investigaci&oacute;n y consultor&iacute;a"},
+  "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Participaci&oacute;n p&uacute;blica","consulting":"Investigaci&oacute;n y consultor&iacute;a"},
   "about": [
      "Natural de S&atilde;o Paulo, soy cient&iacute;fico pol&iacute;tico, doctorando en la Universidad de Brasilia e investigador visitante en la Universidad de Illinois en Chicago. Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
      "Mis intereses son la gobernanza criminal, el comportamiento electoral, la violencia pol&iacute;tica y la pol&iacute;tica subnacional en Am&eacute;rica Latina, con atenci&oacute;n a la seguridad p&uacute;blica y la desigualdad racial.",
@@ -248,8 +256,8 @@ T = {
      ("Instituciones democr&aacute;ticas y espacio c&iacute;vico", "M&aacute;s all&aacute; del crimen, he trabajado en las instituciones de la democracia y en el espacio de la vida c&iacute;vica. Estudi&eacute; el sistema de m&eacute;rito del servicio p&uacute;blico y el clientelismo que lo erosiona, y los movimientos sociales que disputan los l&iacute;mites del espacio c&iacute;vico. Lo que conecta esto con mi agenda principal es la captura, c&oacute;mo las instituciones p&uacute;blicas son tomadas por intereses privados."),
   ],
   "groups": {"articles":"Art&iacute;culos en revistas","chapters":"Cap&iacute;tulos de libro","reports":"Informes t&eacute;cnicos","papers":"Working papers y preprints"},
-  "writing_lead": "Escribo para p&uacute;blicos amplios sobre crimen, seguridad y democracia.",
-  "writing_groups": {"opeds": "Art&iacute;culos de opini&oacute;n", "media": "Entrevistas y medios"},
+  "writing_lead": "Participo en el debate p&uacute;blico sobre crimen, seguridad, clima y democracia, en art&iacute;culos, en los medios y en audiencias p&uacute;blicas.",
+  "writing_groups": {"talks": "Charlas y audiencias p&uacute;blicas", "media": "Entrevistas y medios", "opeds": "Art&iacute;culos de opini&oacute;n"},
   "pubs_label": "publicaciones",
   "map_caption": "Donde vive la poblaci&oacute;n negra en S&atilde;o Paulo, el autob&uacute;s anda m&aacute;s lento. Velocidad del transporte por distrito, cruzada con raza e ingreso. Elaboraci&oacute;n: Igor Novaes Lins.",
   "map_full": "Ver en pantalla completa",
@@ -362,8 +370,9 @@ def render_main(lang, page):
     elif page == "writing":
         inner = '<p class="lead">%s</p>' % t["writing_lead"]
         wg = t["writing_groups"]
-        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["opeds"], "".join("<li>%s</li>" % it for it in OPEDS))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["talks"], "".join("<li>%s</li>" % it for it in TALKS))
         inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["media"], "".join("<li>%s</li>" % it for it in INTERVIEWS))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["opeds"], "".join("<li>%s</li>" % it for it in OPEDS))
     elif page == "consulting":
         paras = t["consulting"]
         inner = '<p class="lead">%s</p>' % paras[0]
