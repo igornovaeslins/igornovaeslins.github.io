@@ -104,6 +104,12 @@ OPEDS = [
     'Lins, I. N. (2026). Redu&ccedil;&atilde;o da maioridade penal vai criar novo ex&eacute;rcito do PCC. <em>CartaCapital</em>. <a href="https://www.cartacapital.com.br/artigo/reducao-da-maioridade-penal-vai-criar-novo-exercito-do-pcc/" rel="noopener" target="_blank">cartacapital.com.br</a>',
     'Lins, I. N., &amp; Giannini, R. (2022). O medo n&atilde;o vencer&aacute; a democracia. <em>Correio Braziliense</em>.',
     'Lins, I. N. (2021). No Brasil, vidas negras n&atilde;o importam: discursos sobre a viol&ecirc;ncia policial na C&acirc;mara dos Deputados. <em>Boletim Lua Nova</em>.',
+    'Lins, I. N. (2019). Supl&ecirc;ncia de deputados: parlamentar eleito depois das elei&ccedil;&otilde;es? <em>Politize!</em>',
+]
+INTERVIEWS = [
+    'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <span class="venue">Entrevista, r&aacute;dio/TV.</span>',
+    'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <span class="venue">Coment&aacute;rio, r&aacute;dio/TV.</span>',
+    'Lins, I. N., &amp; Paz, H. (2020). Persegui&ccedil;&atilde;o e viol&ecirc;ncia a ativistas e lideran&ccedil;as pol&iacute;ticas negras e perif&eacute;ricas. <span class="venue">Mesa redonda, r&aacute;dio/TV.</span>',
 ]
 
 T = {
@@ -145,6 +151,7 @@ T = {
   ],
   "groups": {"articles":"Peer-reviewed articles","chapters":"Book chapters","reports":"Technical reports","papers":"Working papers &amp; preprints"},
   "writing_lead": "I write for broader audiences on crime, security, and democracy.",
+  "writing_groups": {"opeds": "Op-eds &amp; public writing", "media": "Interviews &amp; media"},
   "pubs_label": "publications",
   "map_caption": "Where Black residents live in S&atilde;o Paulo, the bus runs slower. Bus speed by district, crossed with race and income. By Igor Novaes Lins.",
   "map_full": "Open full screen",
@@ -193,6 +200,7 @@ T = {
   ],
   "groups": {"articles":"Artigos em peri&oacute;dico","chapters":"Cap&iacute;tulos de livro","reports":"Relat&oacute;rios t&eacute;cnicos","papers":"Working papers e preprints"},
   "writing_lead": "Escrevo para p&uacute;blicos amplos sobre crime, seguran&ccedil;a e democracia.",
+  "writing_groups": {"opeds": "Artigos de opini&atilde;o", "media": "Entrevistas e m&iacute;dia"},
   "pubs_label": "publica&ccedil;&otilde;es",
   "map_caption": "Onde mora a popula&ccedil;&atilde;o negra em S&atilde;o Paulo, o &ocirc;nibus anda mais devagar. Velocidade do transporte por distrito, cruzada com ra&ccedil;a e renda. Elabora&ccedil;&atilde;o: Igor Novaes Lins.",
   "map_full": "Ver em tela cheia",
@@ -241,6 +249,7 @@ T = {
   ],
   "groups": {"articles":"Art&iacute;culos en revistas","chapters":"Cap&iacute;tulos de libro","reports":"Informes t&eacute;cnicos","papers":"Working papers y preprints"},
   "writing_lead": "Escribo para p&uacute;blicos amplios sobre crimen, seguridad y democracia.",
+  "writing_groups": {"opeds": "Art&iacute;culos de opini&oacute;n", "media": "Entrevistas y medios"},
   "pubs_label": "publicaciones",
   "map_caption": "Donde vive la poblaci&oacute;n negra en S&atilde;o Paulo, el autob&uacute;s anda m&aacute;s lento. Velocidad del transporte por distrito, cruzada con raza e ingreso. Elaboraci&oacute;n: Igor Novaes Lins.",
   "map_full": "Ver en pantalla completa",
@@ -352,7 +361,9 @@ def render_main(lang, page):
         inner += render_groups(lang)
     elif page == "writing":
         inner = '<p class="lead">%s</p>' % t["writing_lead"]
-        inner += '<ol class="list">%s</ol>' % "".join("<li>%s</li>" % it for it in OPEDS)
+        wg = t["writing_groups"]
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["opeds"], "".join("<li>%s</li>" % it for it in OPEDS))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["media"], "".join("<li>%s</li>" % it for it in INTERVIEWS))
     elif page == "consulting":
         paras = t["consulting"]
         inner = '<p class="lead">%s</p>' % paras[0]
