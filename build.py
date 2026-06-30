@@ -283,6 +283,9 @@ def render_head(lang, page):
 <body>
 """ % (lang, title, desc, canon, alts, t["titles"]["index"], desc, canon, OG_IMAGE, og_locale, t["titles"]["index"], desc, OG_IMAGE)
 
+def contact_links():
+    return "".join('<a href="%s"%s>%s</a>' % (url, ("" if url.startswith("mailto:") else ' rel="me noopener" target="_blank"'), label) for label, url in CONTACTS)
+
 def render_sidebar(lang, page):
     t = T[lang]; home = page_url(lang, "index")
     if HAS_PHOTO:
@@ -292,7 +295,7 @@ def render_sidebar(lang, page):
     navitems = "".join('<a href="%s"%s>%s</a>' % (page_url(lang,p), ' class="active"' if p==page else "", label) for p,label in t["nav"])
     langlinks = ['<a href="%s"%s>%s</a>' % (page_url(l,page), ' class="active"' if l==lang else "", l.upper()) for l in LANGS]
     langrow = "<span>&middot;</span>".join(langlinks)
-    contacts = "".join('<a href="%s"%s>%s</a>' % (url, ("" if url.startswith("mailto:") else ' rel="me noopener" target="_blank"'), label) for label,url in CONTACTS)
+    contacts = contact_links()
     return """<aside class="sidebar">
   <div class="flag"></div>
   <div class="inner">
@@ -352,10 +355,10 @@ def render_main(lang, page):
     return """<main>
   %s<h1>%s</h1>
   %s
-  <footer>%s</footer>
+  <footer><div class="contact-foot">%s</div>%s</footer>
 </main>
 %s
-""" % (kicker, h1, inner, t["footer"], jsonld)
+""" % (kicker, h1, inner, contact_links(), t["footer"], jsonld)
 
 def render_jsonld(lang):
     return """<script type="application/ld+json">
