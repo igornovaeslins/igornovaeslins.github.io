@@ -100,25 +100,69 @@ def pubs_for(lang):
         return PUBS_EN
     return [("articles", PUBS_PT_ARTICLES), ("chapters", PUBS_PT_CHAPTERS)] + [(k, v) for k, v in PUBS_EN if k in ("reports", "papers")]
 
-OPEDS = [
+OPEDS = {
+  "pt": [
     'Lins, I. N. (2026). Redu&ccedil;&atilde;o da maioridade penal vai criar novo ex&eacute;rcito do PCC. <em>CartaCapital</em>. <a href="https://www.cartacapital.com.br/artigo/reducao-da-maioridade-penal-vai-criar-novo-exercito-do-pcc/" rel="noopener" target="_blank">cartacapital.com.br</a>',
     'Lins, I. N., &amp; Giannini, R. (2022). O medo n&atilde;o vencer&aacute; a democracia. <em>Correio Braziliense</em>.',
     'Lins, I. N. (2021). No Brasil, vidas negras n&atilde;o importam: discursos sobre a viol&ecirc;ncia policial na C&acirc;mara dos Deputados. <em>Boletim Lua Nova</em>.',
     'Lins, I. N. (2019). Supl&ecirc;ncia de deputados: parlamentar eleito depois das elei&ccedil;&otilde;es? <em>Politize!</em>',
-]
-INTERVIEWS = [
+  ],
+  "en": [
+    'Lins, I. N. (2026). Lowering the age of criminal responsibility will build a new army for the PCC. <em>CartaCapital</em>. <a href="https://www.cartacapital.com.br/artigo/reducao-da-maioridade-penal-vai-criar-novo-exercito-do-pcc/" rel="noopener" target="_blank">cartacapital.com.br</a>',
+    'Lins, I. N., &amp; Giannini, R. (2022). Fear will not defeat democracy. <em>Correio Braziliense</em>.',
+    'Lins, I. N. (2021). In Brazil, Black lives do not matter: discourse on police violence in the Chamber of Deputies. <em>Boletim Lua Nova</em>.',
+    'Lins, I. N. (2019). Substitute deputies: a representative elected after the election? <em>Politize!</em>',
+  ],
+  "es": [
+    'Lins, I. N. (2026). La reducci&oacute;n de la mayor&iacute;a de edad penal crear&aacute; un nuevo ej&eacute;rcito para el PCC. <em>CartaCapital</em>. <a href="https://www.cartacapital.com.br/artigo/reducao-da-maioridade-penal-vai-criar-novo-exercito-do-pcc/" rel="noopener" target="_blank">cartacapital.com.br</a>',
+    'Lins, I. N., &amp; Giannini, R. (2022). El miedo no vencer&aacute; a la democracia. <em>Correio Braziliense</em>.',
+    'Lins, I. N. (2021). En Brasil, las vidas negras no importan: discursos sobre la violencia policial en la C&aacute;mara de Diputados. <em>Boletim Lua Nova</em>.',
+    'Lins, I. N. (2019). Suplencia de diputados: &iquest;un parlamentario electo despu&eacute;s de las elecciones? <em>Politize!</em>',
+  ],
+}
+INTERVIEWS = {
+  "pt": [
     'Lins, I. N. (2025). Entrevista &agrave; r&aacute;dio sueca sobre o PL do licenciamento ambiental (&ldquo;PL da devasta&ccedil;&atilde;o&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
     'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Persegui&ccedil;&atilde;o e viol&ecirc;ncia a ativistas e lideran&ccedil;as pol&iacute;ticas negras e perif&eacute;ricas. <span class="venue">Mesa redonda, r&aacute;dio/TV.</span>',
-]
-TALKS = [
-    'Audi&ecirc;ncia p&uacute;blica sobre publicidade ambiental enganosa (greenwashing), como coordenador de advocacy do Centro Brasileiro de Justi&ccedil;a Clim&aacute;tica. <span class="venue">C&acirc;mara dos Deputados, Comiss&atilde;o de Legisla&ccedil;&atilde;o Participativa, 2025.</span>',
-    'Justi&ccedil;a clim&aacute;tica e sa&uacute;de nas periferias. <span class="venue">Pal&aacute;cio do Planalto, pelo Centro Brasileiro de Justi&ccedil;a Clim&aacute;tica, 2025.</span>',
+  ],
+  "en": [
+    'Lins, I. N. (2025). Interview on Brazil&rsquo;s environmental licensing bill (the &ldquo;devastation bill&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2022). On why the North and Northeast are the last regions to begin counting votes. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
+    'Lins, I. N. (2022). On rising political tension before the election after the killing of a Workers&rsquo; Party supporter. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
+    'Lins, I. N., &amp; Paz, H. (2020). Round table on violence against Black and peripheral activists and political leaders. <span class="venue">Radio/TV.</span>',
+  ],
+  "es": [
+    'Lins, I. N. (2025). Entrevista a la radio sueca sobre el proyecto de licenciamiento ambiental (la &ldquo;ley de la devastaci&oacute;n&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2022). Sobre por qu&eacute; el Norte y el Nordeste son las &uacute;ltimas regiones en empezar el conteo de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
+    'Lins, I. N. (2022). Sobre la tensi&oacute;n pol&iacute;tica antes de la elecci&oacute;n tras el asesinato de un simpatizante del PT. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
+    'Lins, I. N., &amp; Paz, H. (2020). Mesa redonda sobre la violencia contra activistas y liderazgos pol&iacute;ticos negros y perif&eacute;ricos. <span class="venue">Radio/TV.</span>',
+  ],
+}
+TALKS = {
+  "pt": [
+    'Audi&ecirc;ncia p&uacute;blica sobre publicidade ambiental enganosa (greenwashing). <span class="venue">C&acirc;mara dos Deputados, Comiss&atilde;o de Legisla&ccedil;&atilde;o Participativa, 2025.</span>',
+    'Justi&ccedil;a clim&aacute;tica e sa&uacute;de nas periferias. <span class="venue">Pal&aacute;cio do Planalto, 2025.</span>',
     'Mudan&ccedil;as clim&aacute;ticas e seus impactos nas rela&ccedil;&otilde;es de trabalho. <span class="venue">Tribunal Superior do Trabalho, com OIT Brasil e MPT, 2025.</span>',
     'Ilegalismos e produ&ccedil;&atilde;o da cidade: grupos armados, viol&ecirc;ncia pol&iacute;tica e voto. <span class="venue">Observat&oacute;rio de Favelas e Defensoria P&uacute;blica do Rio de Janeiro, 2025.</span>',
+    'Desafios da cultura organizacional militar frente ao ass&eacute;dio e ao abuso sexual. <span class="venue">Webinar, RESDAL, 2025.</span>',
+  ],
+  "en": [
+    'Public hearing on misleading environmental advertising (greenwashing). <span class="venue">Chamber of Deputies, Committee on Participatory Legislation, 2025.</span>',
+    'Climate justice and health in the urban periphery. <span class="venue">Planalto Palace, 2025.</span>',
+    'Climate change and its impact on labour relations. <span class="venue">Superior Labour Court (TST), with ILO Brazil and the Labour Prosecutor&rsquo;s Office, 2025.</span>',
+    'Illegalisms and the making of the city: armed groups, political violence, and the vote. <span class="venue">Observat&oacute;rio de Favelas and the Rio de Janeiro Public Defender&rsquo;s Office, 2025.</span>',
+    'Challenges of military organizational culture in the face of harassment and sexual abuse. <span class="venue">Webinar, RESDAL, 2025.</span>',
+  ],
+  "es": [
+    'Audiencia p&uacute;blica sobre publicidad ambiental enga&ntilde;osa (greenwashing). <span class="venue">C&aacute;mara de Diputados, Comisi&oacute;n de Legislaci&oacute;n Participativa, 2025.</span>',
+    'Justicia clim&aacute;tica y salud en las periferias. <span class="venue">Palacio de Planalto, 2025.</span>',
+    'Cambio clim&aacute;tico y sus impactos en las relaciones laborales. <span class="venue">Tribunal Superior del Trabajo, con la OIT Brasil y el MPT, 2025.</span>',
+    'Ilegalismos y producci&oacute;n de la ciudad: grupos armados, violencia pol&iacute;tica y voto. <span class="venue">Observat&oacute;rio de Favelas y la Defensor&iacute;a P&uacute;blica de R&iacute;o de Janeiro, 2025.</span>',
     'Desaf&iacute;os de la cultura organizacional militar frente al acoso y abuso sexual. <span class="venue">Webinar, RESDAL, 2025.</span>',
-]
+  ],
+}
 
 T = {
 "en": {
@@ -370,9 +414,9 @@ def render_main(lang, page):
     elif page == "writing":
         inner = '<p class="lead">%s</p>' % t["writing_lead"]
         wg = t["writing_groups"]
-        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["talks"], "".join("<li>%s</li>" % it for it in TALKS))
-        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["media"], "".join("<li>%s</li>" % it for it in INTERVIEWS))
-        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["opeds"], "".join("<li>%s</li>" % it for it in OPEDS))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["talks"], "".join("<li>%s</li>" % it for it in TALKS[lang]))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["media"], "".join("<li>%s</li>" % it for it in INTERVIEWS[lang]))
+        inner += '<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (wg["opeds"], "".join("<li>%s</li>" % it for it in OPEDS[lang]))
     elif page == "consulting":
         paras = t["consulting"]
         inner = '<p class="lead">%s</p>' % paras[0]
