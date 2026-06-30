@@ -35,7 +35,7 @@ CONTACTS = [
     ("Email", "mailto:igornovaeslins@gmail.com"),
     ("Google Scholar", "https://scholar.google.com/citations?user=pD8sQZAAAAAJ&hl=en"),
     ("ORCID", "https://orcid.org/0000-0003-0510-8355"),
-    ("Academia.edu", "https://unb.academia.edu/IgorNovaesLins"),
+    ("Lattes", "http://lattes.cnpq.br/1256551333741329"),
     ("LinkedIn", "https://www.linkedin.com/in/igornovaeslins"),
     ("GitHub", "https://github.com/igornovaeslins"),
 ]
@@ -458,7 +458,7 @@ def render_jsonld(lang):
   "sameAs": [
     "https://scholar.google.com/citations?user=pD8sQZAAAAAJ&hl=en",
     "https://orcid.org/0000-0003-0510-8355",
-    "https://unb.academia.edu/IgorNovaesLins",
+    "http://lattes.cnpq.br/1256551333741329",
     "https://www.linkedin.com/in/igornovaeslins",
     "https://github.com/igornovaeslins"
   ]
