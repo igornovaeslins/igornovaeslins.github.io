@@ -11,7 +11,7 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = "https://igornovaeslins.github.io"
 LANGS = ["en", "pt", "es"]
 DEFAULT = "en"
-PAGES = ["index", "research", "publications", "writing", "consulting"]
+PAGES = ["index", "research", "writing", "consulting"]
 HREFLANG = {"en": "en", "pt": "pt-BR", "es": "es"}
 HAS_PHOTO = True
 OG_IMAGE = SITE + "/assets/portrait.jpg"
@@ -31,6 +31,21 @@ CONTACTS = [
     ("Academia.edu", "https://unb.academia.edu/IgorNovaesLins"),
     ("LinkedIn", "https://www.linkedin.com/in/igornovaeslins"),
 ]
+
+# Research themes (anchors on the research page) and the short tag label per language.
+THEME_IDS = ["t-governance", "t-state", "t-collapse", "t-race"]
+THEME_TAGS = {
+    "en": {"t-governance": "criminal governance", "t-state": "the state &amp; crime", "t-collapse": "order &amp; violence", "t-race": "race &amp; violence"},
+    "pt": {"t-governance": "governan&ccedil;a criminal", "t-state": "o Estado e o crime", "t-collapse": "ordem e viol&ecirc;ncia", "t-race": "ra&ccedil;a e viol&ecirc;ncia"},
+    "es": {"t-governance": "gobernanza criminal", "t-state": "el Estado y el crimen", "t-collapse": "orden y violencia", "t-race": "raza y violencia"},
+}
+# which theme(s) each publication belongs to (index-aligned with the lists below; same order in EN and PT).
+PUB_TAGS = {
+    "articles": [["t-governance"], ["t-governance"], ["t-race"], ["t-state"], []],
+    "chapters": [[], []],
+    "reports":  [["t-collapse"], []],
+    "papers":   [["t-governance"], ["t-governance"], ["t-collapse"], ["t-governance"], ["t-state"], ["t-governance"], ["t-collapse"]],
+}
 
 PUBS_EN = [
     ("articles", [
@@ -85,7 +100,7 @@ OPEDS = [
 
 T = {
 "en": {
-  "nav": [("index","About"),("research","Research"),("publications","Publications"),("writing","Writing"),("consulting","Consulting")],
+  "nav": [("index","About"),("research","Research"),("writing","Writing"),("consulting","Consulting")],
   "tagline": "Criminal governance and politics in Latin America",
   "kicker_index": "Political scientist",
   "current": "PhD candidate, <strong>University of Bras&iacute;lia</strong> &middot; Visiting researcher, <strong>University of Illinois at Chicago</strong>",
@@ -114,13 +129,14 @@ T = {
   ],
   "research_lead": "My research centers on criminal governance and politics. I ask how armed groups that rule territory, and set the rules of daily life there, reshape who votes, who can run, who wins, and who gets hurt. Rio de Janeiro is my main case, and georeferenced administrative microdata is my main material.",
   "threads": [
-     ("Criminal governance and the vote", "Not all armed control is alike. Where politically integrated militias govern, turnout rises and registration moves with them. Where peripheral drug factions like the Comando Vermelho rule, participation falls. The spatial signature is diffuse dominance. Criminally linked candidates dominate locally while spreading thin across the map rather than forming a single stronghold."),
-     ("The state redraws crime", "Who the state appoints to command a police battalion reorganizes the borders of criminal control. I use the timing of commander turnover to show how a formal policing decision expands militia frontiers and raises police lethality. I treat the state as part of the criminal order rather than its opposite."),
-     ("Collapse and gendered violence", "When a criminal, police, or hybrid authority collapses, the violence that follows is what the prior order was containing. After leadership ruptures in Rio&rsquo;s Liga da Justi&ccedil;a, attempted femicide rises sharply, and the same logic appears in Chicago after the Laquan McDonald shooting. Crime also extends its authority into the domestic sphere, becoming a judge of private conflict at the cost of substituting for the state."),
-     ("Race and political violence", "I map racially motivated violence against Black activists and political leaders in Rio, and how its grammar shifts from the Baixada Fluminense to the Zona Sul."),
+     ("Criminal governance and the vote", "I argue that the political effect of an armed group turns on its degree of political integration, not on how much territory it holds. Integrated groups build durable, reciprocal ties to the political system and govern the people under them as a constituency. Peripheral groups hold ground by coercion without that project. Reading criminal governance as a question of political incorporation, rather than a measure of control, explains why groups with similar territorial power pull elections in opposite directions. I formalize this as a typology of integrated, peripheral, and hybrid governance, and follow it into turnout, registration, candidacy, and who wins."),
+     ("The state and criminal order", "The state is not the opposite of criminal order. It is part of its infrastructure. I argue that formal decisions, above all who is appointed to command the local police, redraw the borders of criminal control and feed electoral capture. Treating policing as an exogenous response to crime misses how the state continuously reorganizes the order it claims to fight, and how penal discourse in the legislature legitimates it."),
+     ("Order, collapse, and gendered violence", "When a governing authority breaks down, whether criminal, police, or hybrid, the violence that follows is not new. It is the violence the prior order was holding back. I also argue that this violence has to be read through two ledgers at once, the institutional record and the real record, because under criminal governance the two diverge systematically and that gap is itself evidence of capture. The argument extends to gender, where armed order both contains and produces violence against women."),
+     ("Race and political violence", "Political violence in Brazil has a racial grammar. I argue that who is targeted in political life, and where, follows lines of race and of territory that I read as distinct rather than collapsing them into one. I also show how parliamentary discourse normalizes police lethality against Black citizens."),
   ],
   "groups": {"articles":"Peer-reviewed articles","chapters":"Book chapters","reports":"Technical reports","papers":"Working papers &amp; preprints"},
   "writing_lead": "I write for broader audiences on crime, security, and democracy.",
+  "pubs_label": "publications",
   "map_caption": "Where Black residents live in S&atilde;o Paulo, the bus runs slower. Bus speed by district, crossed with race and income. By Igor Novaes Lins.",
   "map_full": "Open full screen",
   "consulting": [
@@ -131,7 +147,7 @@ T = {
   ],
 },
 "pt": {
-  "nav": [("index","Sobre"),("research","Pesquisa"),("publications","Publica&ccedil;&otilde;es"),("writing","Na m&iacute;dia"),("consulting","Consultoria")],
+  "nav": [("index","Sobre"),("research","Pesquisa"),("writing","Na m&iacute;dia"),("consulting","Consultoria")],
   "tagline": "Governan&ccedil;a criminal e pol&iacute;tica na Am&eacute;rica Latina",
   "kicker_index": "Cientista pol&iacute;tico",
   "current": "Doutorando, <strong>Universidade de Bras&iacute;lia</strong> &middot; Pesquisador visitante, <strong>University of Illinois at Chicago</strong>",
@@ -160,13 +176,14 @@ T = {
   ],
   "research_lead": "Minha pesquisa se concentra na governan&ccedil;a criminal e na pol&iacute;tica. Pergunto como grupos armados que governam o territ&oacute;rio, e ditam as regras da vida cotidiana ali, redefinem quem vota, quem pode se candidatar, quem vence e quem se machuca. O Rio de Janeiro &eacute; meu caso principal, e microdados administrativos georreferenciados s&atilde;o meu material principal.",
   "threads": [
-     ("Governan&ccedil;a criminal e o voto", "Nem todo controle armado &eacute; igual. Onde mil&iacute;cias politicamente integradas governam, o comparecimento sobe e o registro se move com elas. Onde fac&ccedil;&otilde;es do tr&aacute;fico como o Comando Vermelho dominam, a participa&ccedil;&atilde;o cai. A assinatura espacial &eacute; a domin&acirc;ncia difusa. Candidatos ligados ao crime dominam localmente e se espalham fino pelo mapa, em vez de formar um &uacute;nico reduto."),
-     ("O Estado redesenha o crime", "Quem o Estado nomeia para comandar um batalh&atilde;o reorganiza as fronteiras do controle criminal. Uso o timing da troca de comando para mostrar como uma decis&atilde;o formal de policiamento expande as fronteiras das mil&iacute;cias e eleva a letalidade policial. Trato o Estado como parte da ordem criminal, n&atilde;o como seu oposto."),
-     ("Colapso e viol&ecirc;ncia de g&ecirc;nero", "Quando uma autoridade criminal, policial ou h&iacute;brida colapsa, a viol&ecirc;ncia que vem a seguir &eacute; a que a ordem anterior continha. Depois das rupturas de lideran&ccedil;a na Liga da Justi&ccedil;a, no Rio, a tentativa de feminic&iacute;dio sobe com for&ccedil;a, e a mesma l&oacute;gica aparece em Chicago ap&oacute;s o caso Laquan McDonald. O crime tamb&eacute;m estende sua autoridade &agrave; esfera dom&eacute;stica, virando juiz do conflito privado ao custo de substituir o Estado."),
-     ("Ra&ccedil;a e viol&ecirc;ncia pol&iacute;tica", "Mapeio a viol&ecirc;ncia de motiva&ccedil;&atilde;o racial contra ativistas e lideran&ccedil;as pol&iacute;ticas negras no Rio, e como sua gram&aacute;tica muda da Baixada Fluminense &agrave; Zona Sul."),
+     ("Governan&ccedil;a criminal e o voto", "Argumento que o efeito pol&iacute;tico de um grupo armado depende do seu grau de integra&ccedil;&atilde;o pol&iacute;tica, n&atilde;o de quanto territ&oacute;rio ele controla. Grupos integrados constroem la&ccedil;os dur&aacute;veis e rec&iacute;procos com o sistema pol&iacute;tico e governam quem est&aacute; sob eles como um eleitorado. Grupos perif&eacute;ricos seguram o territ&oacute;rio pela coer&ccedil;&atilde;o, sem esse projeto. Ler a governan&ccedil;a criminal como uma quest&atilde;o de incorpora&ccedil;&atilde;o pol&iacute;tica, e n&atilde;o como uma medida de controle, explica por que grupos com poder territorial parecido puxam as elei&ccedil;&otilde;es em dire&ccedil;&otilde;es opostas. Formalizo isso como uma tipologia de governan&ccedil;a integrada, perif&eacute;rica e h&iacute;brida, e a sigo at&eacute; o comparecimento, o registro, a candidatura e quem vence."),
+     ("O Estado e a ordem criminal", "O Estado n&atilde;o &eacute; o oposto da ordem criminal. &Eacute; parte da sua infraestrutura. Argumento que decis&otilde;es formais, sobretudo quem &eacute; nomeado para comandar o batalh&atilde;o local, redesenham as fronteiras do controle criminal e alimentam a captura eleitoral. Tratar o policiamento como uma resposta ex&oacute;gena ao crime ignora como o Estado reorganiza continuamente a ordem que diz combater, e como o discurso penal no Legislativo a legitima."),
+     ("Ordem, colapso e viol&ecirc;ncia de g&ecirc;nero", "Quando uma autoridade que governa entra em colapso, seja criminal, policial ou h&iacute;brida, a viol&ecirc;ncia que vem a seguir n&atilde;o &eacute; nova. &Eacute; a viol&ecirc;ncia que a ordem anterior vinha contendo. Argumento tamb&eacute;m que essa viol&ecirc;ncia precisa ser lida por dois registros ao mesmo tempo, o institucional e o real, porque sob governan&ccedil;a criminal os dois divergem de forma sistem&aacute;tica e essa diferen&ccedil;a &eacute; ela mesma evid&ecirc;ncia de captura. O argumento se estende ao g&ecirc;nero, em que a ordem armada ao mesmo tempo cont&eacute;m e produz viol&ecirc;ncia contra a mulher."),
+     ("Ra&ccedil;a e viol&ecirc;ncia pol&iacute;tica", "A viol&ecirc;ncia pol&iacute;tica no Brasil tem uma gram&aacute;tica racial. Argumento que quem &eacute; alvo na vida pol&iacute;tica, e onde, segue linhas de ra&ccedil;a e de territ&oacute;rio que leio como distintas, sem fundir as duas numa s&oacute;. Mostro tamb&eacute;m como o discurso parlamentar normaliza a letalidade policial contra cidad&atilde;os negros."),
   ],
   "groups": {"articles":"Artigos em peri&oacute;dico","chapters":"Cap&iacute;tulos de livro","reports":"Relat&oacute;rios t&eacute;cnicos","papers":"Working papers e preprints"},
   "writing_lead": "Escrevo para p&uacute;blicos amplos sobre crime, seguran&ccedil;a e democracia.",
+  "pubs_label": "publica&ccedil;&otilde;es",
   "map_caption": "Onde mora a popula&ccedil;&atilde;o negra em S&atilde;o Paulo, o &ocirc;nibus anda mais devagar. Velocidade do transporte por distrito, cruzada com ra&ccedil;a e renda. Elabora&ccedil;&atilde;o: Igor Novaes Lins.",
   "map_full": "Ver em tela cheia",
   "consulting": [
@@ -177,7 +194,7 @@ T = {
   ],
 },
 "es": {
-  "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("publications","Publicaciones"),("writing","Opini&oacute;n"),("consulting","Consultor&iacute;a")],
+  "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Opini&oacute;n"),("consulting","Consultor&iacute;a")],
   "tagline": "Gobernanza criminal y pol&iacute;tica en Am&eacute;rica Latina",
   "kicker_index": "Cient&iacute;fico pol&iacute;tico",
   "current": "Doctorando, <strong>Universidad de Brasilia</strong> &middot; Investigador visitante, <strong>University of Illinois at Chicago</strong>",
@@ -206,13 +223,14 @@ T = {
   ],
   "research_lead": "Mi investigaci&oacute;n se centra en la gobernanza criminal y la pol&iacute;tica. Pregunto c&oacute;mo los grupos armados que gobiernan el territorio, y dictan las reglas de la vida cotidiana all&iacute;, redefinen qui&eacute;n vota, qui&eacute;n puede postularse, qui&eacute;n gana y qui&eacute;n resulta herido. R&iacute;o de Janeiro es mi caso principal, y los microdatos administrativos georreferenciados son mi material principal.",
   "threads": [
-     ("Gobernanza criminal y el voto", "No todo control armado es igual. Donde gobiernan milicias pol&iacute;ticamente integradas, la participaci&oacute;n sube y el registro se mueve con ellas. Donde dominan facciones del narcotr&aacute;fico como el Comando Vermelho, la participaci&oacute;n cae. La firma espacial es la dominancia difusa. Los candidatos ligados al crimen dominan localmente y se dispersan por el mapa, en vez de formar un &uacute;nico basti&oacute;n."),
-     ("El Estado redibuja el crimen", "A qui&eacute;n nombra el Estado para comandar un batall&oacute;n reorganiza las fronteras del control criminal. Uso el momento del relevo de mando para mostrar c&oacute;mo una decisi&oacute;n formal de polic&iacute;a expande las fronteras de las milicias y eleva la letalidad policial. Trato al Estado como parte del orden criminal, no como su opuesto."),
-     ("Colapso y violencia de g&eacute;nero", "Cuando una autoridad criminal, policial o h&iacute;brida colapsa, la violencia que sigue es la que el orden anterior conten&iacute;a. Tras las rupturas de liderazgo en la Liga da Justi&ccedil;a, en R&iacute;o, la tentativa de feminicidio sube con fuerza, y la misma l&oacute;gica aparece en Chicago tras el caso Laquan McDonald. El crimen tambi&eacute;n extiende su autoridad a la esfera dom&eacute;stica, volvi&eacute;ndose juez del conflicto privado al costo de sustituir al Estado."),
-     ("Raza y violencia pol&iacute;tica", "Mapeo la violencia de motivaci&oacute;n racial contra activistas y liderazgos pol&iacute;ticos negros en R&iacute;o, y c&oacute;mo su gram&aacute;tica cambia de la Baixada Fluminense a la Zona Sur."),
+     ("Gobernanza criminal y el voto", "Sostengo que el efecto pol&iacute;tico de un grupo armado depende de su grado de integraci&oacute;n pol&iacute;tica, no de cu&aacute;nto territorio controla. Los grupos integrados construyen v&iacute;nculos duraderos y rec&iacute;procos con el sistema pol&iacute;tico y gobiernan a quienes est&aacute;n bajo ellos como un electorado. Los grupos perif&eacute;ricos sostienen el territorio por la coerci&oacute;n, sin ese proyecto. Leer la gobernanza criminal como una cuesti&oacute;n de incorporaci&oacute;n pol&iacute;tica, y no como una medida de control, explica por qu&eacute; grupos con poder territorial parecido empujan las elecciones en direcciones opuestas. Lo formalizo como una tipolog&iacute;a de gobernanza integrada, perif&eacute;rica e h&iacute;brida, y la sigo hasta la participaci&oacute;n, el registro, la candidatura y qui&eacute;n gana."),
+     ("El Estado y el orden criminal", "El Estado no es el opuesto del orden criminal. Es parte de su infraestructura. Sostengo que las decisiones formales, sobre todo a qui&eacute;n se nombra para comandar el batall&oacute;n local, redibujan las fronteras del control criminal y alimentan la captura electoral. Tratar la actuaci&oacute;n policial como una respuesta ex&oacute;gena al crimen ignora c&oacute;mo el Estado reorganiza continuamente el orden que dice combatir, y c&oacute;mo el discurso penal en el Legislativo lo legitima."),
+     ("Orden, colapso y violencia de g&eacute;nero", "Cuando una autoridad que gobierna se derrumba, sea criminal, policial o h&iacute;brida, la violencia que sigue no es nueva. Es la violencia que el orden anterior ven&iacute;a conteniendo. Sostengo adem&aacute;s que esa violencia debe leerse por dos registros a la vez, el institucional y el real, porque bajo gobernanza criminal ambos divergen de forma sistem&aacute;tica y esa diferencia es ella misma evidencia de captura. El argumento se extiende al g&eacute;nero, donde el orden armado a la vez contiene y produce violencia contra las mujeres."),
+     ("Raza y violencia pol&iacute;tica", "La violencia pol&iacute;tica en Brasil tiene una gram&aacute;tica racial. Sostengo que qui&eacute;n es blanco en la vida pol&iacute;tica, y d&oacute;nde, sigue l&iacute;neas de raza y de territorio que leo como distintas, sin fundir ambas en una sola. Muestro tambi&eacute;n c&oacute;mo el discurso parlamentario normaliza la letalidad policial contra ciudadanos negros."),
   ],
   "groups": {"articles":"Art&iacute;culos en revistas","chapters":"Cap&iacute;tulos de libro","reports":"Informes t&eacute;cnicos","papers":"Working papers y preprints"},
   "writing_lead": "Escribo para p&uacute;blicos amplios sobre crimen, seguridad y democracia.",
+  "pubs_label": "publicaciones",
   "map_caption": "Donde vive la poblaci&oacute;n negra en S&atilde;o Paulo, el autob&uacute;s anda m&aacute;s lento. Velocidad del transporte por distrito, cruzada con raza e ingreso. Elaboraci&oacute;n: Igor Novaes Lins.",
   "map_full": "Ver en pantalla completa",
   "consulting": [
@@ -298,7 +316,13 @@ def render_map(lang):
 def render_groups(lang):
     t = T[lang]; out = []
     for key, items in pubs_for(lang):
-        lis = "".join("<li>%s</li>" % it for it in items)
+        tagsets = PUB_TAGS.get(key, [])
+        lis = ""
+        for i, it in enumerate(items):
+            idlist = tagsets[i] if i < len(tagsets) else []
+            chips = "".join('<a class="tag" href="#%s">%s</a>' % (tid, THEME_TAGS[lang][tid]) for tid in idlist)
+            tagblock = '<div class="tags">%s</div>' % chips if chips else ""
+            lis += "<li>%s%s</li>" % (it, tagblock)
         out.append('<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (t["groups"][key], lis))
     return "\n".join(out)
 
@@ -308,10 +332,10 @@ def render_main(lang, page):
         inner = "".join("<p>%s</p>" % p for p in t["about"])
     elif page == "research":
         inner = '<p class="lead">%s</p>' % t["research_lead"]
-        for title, desc in t["threads"]:
-            inner += '<div class="group"><h3>%s</h3><p>%s</p></div>' % (title, desc)
-    elif page == "publications":
-        inner = render_groups(lang)
+        for i, (title, desc) in enumerate(t["threads"]):
+            inner += '<div class="group" id="%s"><h3>%s</h3><p>%s</p></div>' % (THEME_IDS[i], title, desc)
+        inner += '<h2 class="sub">%s</h2>' % t["pubs_label"]
+        inner += render_groups(lang)
     elif page == "writing":
         inner = '<p class="lead">%s</p>' % t["writing_lead"]
         inner += '<ol class="list">%s</ol>' % "".join("<li>%s</li>" % it for it in OPEDS)

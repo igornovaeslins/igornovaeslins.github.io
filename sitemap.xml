@@ -2,17 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://igornovaeslins.github.io/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://igornovaeslins.github.io/research.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://igornovaeslins.github.io/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/writing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/consulting.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/pt/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://igornovaeslins.github.io/pt/research.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://igornovaeslins.github.io/pt/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/pt/writing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/pt/consulting.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/es/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
   <url><loc>https://igornovaeslins.github.io/es/research.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://igornovaeslins.github.io/es/publications.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/es/writing.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://igornovaeslins.github.io/es/consulting.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
