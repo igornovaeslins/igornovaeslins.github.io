@@ -123,18 +123,21 @@ OPEDS = {
 INTERVIEWS = {
   "pt": [
     'Lins, I. N. (2025). Entrevista &agrave; r&aacute;dio sueca sobre o PL do licenciamento ambiental (&ldquo;PL da devasta&ccedil;&atilde;o&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2023). Chacinas comprometeram plano de seguran&ccedil;a de Dino. <em>Correio da Manh&atilde;</em>. <a href="https://correiodamanha.com.br/politica/2023/10/98656-chacinas-comprometeram-plano-de-seguranca-de-dino.html" rel="noopener" target="_blank">correiodamanha.com.br</a>',
     'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Persegui&ccedil;&atilde;o e viol&ecirc;ncia a ativistas e lideran&ccedil;as pol&iacute;ticas negras e perif&eacute;ricas. <span class="venue">Mesa redonda, r&aacute;dio/TV.</span>',
   ],
   "en": [
     'Lins, I. N. (2025). Interview on Brazil&rsquo;s environmental licensing bill (the &ldquo;devastation bill&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2023). On how massacres undermined Justice Minister Dino&rsquo;s security plan. <em>Correio da Manh&atilde;</em>. <a href="https://correiodamanha.com.br/politica/2023/10/98656-chacinas-comprometeram-plano-de-seguranca-de-dino.html" rel="noopener" target="_blank">correiodamanha.com.br</a>',
     'Lins, I. N. (2022). On why the North and Northeast are the last regions to begin counting votes. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N. (2022). On rising political tension before the election after the killing of a Workers&rsquo; Party supporter. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Round table on violence against Black and peripheral activists and political leaders. <span class="venue">Radio/TV.</span>',
   ],
   "es": [
     'Lins, I. N. (2025). Entrevista a la radio sueca sobre el proyecto de licenciamiento ambiental (la &ldquo;ley de la devastaci&oacute;n&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
+    'Lins, I. N. (2023). Sobre c&oacute;mo las masacres comprometieron el plan de seguridad del ministro Dino. <em>Correio da Manh&atilde;</em>. <a href="https://correiodamanha.com.br/politica/2023/10/98656-chacinas-comprometeram-plano-de-seguranca-de-dino.html" rel="noopener" target="_blank">correiodamanha.com.br</a>',
     'Lins, I. N. (2022). Sobre por qu&eacute; el Norte y el Nordeste son las &uacute;ltimas regiones en empezar el conteo de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N. (2022). Sobre la tensi&oacute;n pol&iacute;tica antes de la elecci&oacute;n tras el asesinato de un simpatizante del PT. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Mesa redonda sobre la violencia contra activistas y liderazgos pol&iacute;ticos negros y perif&eacute;ricos. <span class="venue">Radio/TV.</span>',
