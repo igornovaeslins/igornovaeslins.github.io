@@ -32,16 +32,16 @@ CONTACTS = [
     ("LinkedIn", "https://www.linkedin.com/in/igornovaeslins"),
 ]
 
-PUBS = [
+PUBS_EN = [
     ("articles", [
-        'Lins, I. N., &amp; Machado, C. A. M. (2024). The geography of militia voting in the city of Rio de Janeiro. <em>Teoria &amp; Pesquisa</em>, <span class="venue">33, 1&ndash;54.</span>',
-        'Lins, I. N., &amp; Machado, C. A. M. (2023). Crime is political: theoretical elements for a neoinstitutionalist analysis of paramilitary groups in Rio de Janeiro. <em>Brazilian Journal of Political Science</em>.',
-        'Lins, I. N. (2023). From the Baixada to the South Zone: paths of racial political violence in Rio de Janeiro. <em>Brazilian Public Security Review</em>, <span class="venue">17, 188&ndash;207.</span>',
-        'Lins, I. N., &amp; Ferreira, J. V. B. (2022). Penal populism in parliamentary discourse: the debate on police violence in the Brazilian Chamber of Deputies (2019&ndash;2021). <em>Revista Eletr&ocirc;nica de Ci&ecirc;ncia Pol&iacute;tica</em>, <span class="venue">13.</span>',
-        'Parnes, H. R., Lins, I. N., &amp; Trindade, P. S. (2020). Engagement, networks, and identity: a case study of the School Without Party movement. <em>Revista Eletr&ocirc;nica Intera&ccedil;&otilde;es Sociais</em>, <span class="venue">4, 79&ndash;92.</span>',
+        'Lins, I. N., &amp; Machado, C. A. M. (2024). The geography of militia voting in the city of Rio de Janeiro. <em>Teoria &amp; Pesquisa</em>, <span class="venue">33, 1&ndash;54.</span><br><a href="https://doi.org/10.14244/tp.v33i00.1083" rel="noopener" target="_blank">doi.org/10.14244/tp.v33i00.1083</a>',
+        'Lins, I. N., &amp; Machado, C. A. M. (2023). Crime is political: theoretical elements for a neoinstitutionalist analysis of paramilitary groups in Rio de Janeiro. <em>Brazilian Journal of Political Science</em>.<br><a href="https://doi.org/10.1590/0103-3352.2023.42.271780" rel="noopener" target="_blank">doi.org/10.1590/0103-3352.2023.42.271780</a>',
+        'Lins, I. N. (2023). From the Baixada to the South Zone: paths of racial political violence in Rio de Janeiro. <em>Brazilian Public Security Review</em>, <span class="venue">17, 188&ndash;207.</span><br><a href="https://doi.org/10.31060/rbsp.2023.v17.n1.1532" rel="noopener" target="_blank">doi.org/10.31060/rbsp.2023.v17.n1.1532</a>',
+        'Lins, I. N., &amp; Ferreira, J. V. B. (2022). Penal populism in parliamentary discourse: the debate on police violence in the Brazilian Chamber of Deputies (2019&ndash;2021). <em>Revista Eletr&ocirc;nica de Ci&ecirc;ncia Pol&iacute;tica</em>, <span class="venue">13.</span><br><a href="https://doi.org/10.5380/recp.v13i1.82629" rel="noopener" target="_blank">doi.org/10.5380/recp.v13i1.82629</a>',
+        'Parnes, H. R., Lins, I. N., &amp; Trindade, P. S. (2020). Engagement, identity, and networks: a case study of the School Without Party movement. <em>Revista Eletr&ocirc;nica Intera&ccedil;&otilde;es Sociais</em>, <span class="venue">4, 79&ndash;92.</span><br><a href="https://periodicos.furg.br/reis/article/view/11824" rel="noopener" target="_blank">periodicos.furg.br</a>',
     ]),
     ("chapters", [
-        'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). The merit system in Brazil and worldwide. In G. Lotta &amp; V. Campagnac (Eds.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 331&ndash;354). Rio de Janeiro: Cobog&oacute;. <span class="venue">(Jabuti Prize semifinalist)</span>',
+        'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). The merit system in Brazil and worldwide. In G. Lotta &amp; V. Campagnac (Eds.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 331&ndash;354). Rio de Janeiro: Cobog&oacute;. <span class="venue">(Jabuti Prize semifinalist)</span><br><a href="https://books.google.com/books/about/Rep%C3%BAblica_em_notas.html?id=gQ_iEAAAQBAJ" rel="noopener" target="_blank">books.google.com</a>',
         'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). Recommendations to strengthen the public service merit system. In G. Lotta &amp; V. Campagnac (Eds.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 355&ndash;365). Rio de Janeiro: Cobog&oacute;.',
     ]),
     ("reports", [
@@ -58,6 +58,24 @@ PUBS = [
         'Lins, I. N., &amp; Maia, B. (2026). Who can commit violence? Criminal governance and the reorganization of gender violence (Rio, Bel&eacute;m, Chicago). <span class="venue">Working paper.</span>',
     ]),
 ]
+
+# Original Portuguese titles for Brazilian-published works (shown on PT and ES pages).
+PUBS_PT_ARTICLES = [
+    'Lins, I. N., &amp; Machado, C. A. M. (2024). A geografia do voto das mil&iacute;cias na cidade do Rio de Janeiro. <em>Teoria &amp; Pesquisa</em>, <span class="venue">33, 1&ndash;54.</span><br><a href="https://doi.org/10.14244/tp.v33i00.1083" rel="noopener" target="_blank">doi.org/10.14244/tp.v33i00.1083</a>',
+    'Lins, I. N., &amp; Machado, C. A. M. (2023). O crime &eacute; pol&iacute;tico: elementos te&oacute;ricos para uma an&aacute;lise neoinstitucionalista das mil&iacute;cias no Rio de Janeiro. <em>Revista Brasileira de Ci&ecirc;ncia Pol&iacute;tica</em>, <span class="venue">42.</span><br><a href="https://doi.org/10.1590/0103-3352.2023.42.271780" rel="noopener" target="_blank">doi.org/10.1590/0103-3352.2023.42.271780</a>',
+    'Lins, I. N. (2023). Da baixada &agrave; zona sul: caminhos da viol&ecirc;ncia pol&iacute;tica de ra&ccedil;a no Rio de Janeiro. <em>Revista Brasileira de Seguran&ccedil;a P&uacute;blica</em>, <span class="venue">17, 188&ndash;207.</span><br><a href="https://doi.org/10.31060/rbsp.2023.v17.n1.1532" rel="noopener" target="_blank">doi.org/10.31060/rbsp.2023.v17.n1.1532</a>',
+    'Lins, I. N., &amp; Ferreira, J. V. B. (2022). Populismo penal no discurso parlamentar: o debate da viol&ecirc;ncia policial na C&acirc;mara dos Deputados (2019&ndash;2021). <em>Revista Eletr&ocirc;nica de Ci&ecirc;ncia Pol&iacute;tica</em>, <span class="venue">13.</span><br><a href="https://doi.org/10.5380/recp.v13i1.82629" rel="noopener" target="_blank">doi.org/10.5380/recp.v13i1.82629</a>',
+    'Parnes, H. R., Lins, I. N., &amp; Trindade, P. S. (2020). Engajamento, identidade e redes: um estudo de caso do Escola sem Partido. <em>Revista Eletr&ocirc;nica Intera&ccedil;&otilde;es Sociais</em>, <span class="venue">4, 79&ndash;92.</span><br><a href="https://periodicos.furg.br/reis/article/view/11824" rel="noopener" target="_blank">periodicos.furg.br</a>',
+]
+PUBS_PT_CHAPTERS = [
+    'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). O sistema de m&eacute;rito no Brasil e no mundo. In G. Lotta &amp; V. Campagnac (Org.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 331&ndash;354). Rio de Janeiro: Cobog&oacute;. <span class="venue">(semifinalista do Pr&ecirc;mio Jabuti)</span><br><a href="https://books.google.com/books/about/Rep%C3%BAblica_em_notas.html?id=gQ_iEAAAQBAJ" rel="noopener" target="_blank">books.google.com</a>',
+    'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). Recomenda&ccedil;&otilde;es para fortalecer o sistema de m&eacute;rito do servi&ccedil;o p&uacute;blico. In G. Lotta &amp; V. Campagnac (Org.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 355&ndash;365). Rio de Janeiro: Cobog&oacute;.',
+]
+
+def pubs_for(lang):
+    if lang == "en":
+        return PUBS_EN
+    return [("articles", PUBS_PT_ARTICLES), ("chapters", PUBS_PT_CHAPTERS)] + [(k, v) for k, v in PUBS_EN if k in ("reports", "papers")]
 
 OPEDS = [
     'Lins, I. N. (2026). Redu&ccedil;&atilde;o da maioridade penal vai criar novo ex&eacute;rcito do PCC. <em>CartaCapital</em>. <a href="https://www.cartacapital.com.br/artigo/reducao-da-maioridade-penal-vai-criar-novo-exercito-do-pcc/" rel="noopener" target="_blank">cartacapital.com.br</a>',
@@ -279,7 +297,7 @@ def render_map(lang):
 
 def render_groups(lang):
     t = T[lang]; out = []
-    for key, items in PUBS:
+    for key, items in pubs_for(lang):
         lis = "".join("<li>%s</li>" % it for it in items)
         out.append('<div class="group"><h3>%s</h3><ol class="list">%s</ol></div>' % (t["groups"][key], lis))
     return "\n".join(out)
