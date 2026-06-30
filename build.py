@@ -69,7 +69,7 @@ T = {
 "en": {
   "nav": [("index","About"),("research","Research"),("publications","Publications"),("writing","Writing"),("consulting","Consulting")],
   "tagline": "Criminal governance and politics in Latin America",
-  "kicker_index": "Political Scientist",
+  "kicker_index": "Political scientist",
   "current": "PhD candidate, <strong>University of Bras&iacute;lia</strong> &middot; Visiting researcher, <strong>University of Illinois at Chicago</strong>",
   "footer": "&copy; 2026 Igor Novaes Lins",
   "skip_alt": "Igor Novaes Lins",
@@ -87,7 +87,7 @@ T = {
      "writing": "Op-eds and public writing by Igor Novaes Lins on crime, security, and democracy in Brazil.",
      "consulting": "Data, maps, and reproducible analysis for organizations working on cities, security, and inequality in Latin America.",
   },
-  "page_h1": {"index":"About","research":"Research","publications":"Publications","writing":"Writing","consulting":"Research &amp; Consulting"},
+  "page_h1": {"index":"About","research":"Research","publications":"Publications","writing":"Writing","consulting":"Research &amp; consulting"},
   "about": [
      "Born in S&atilde;o Paulo, I am a political scientist, a doctoral candidate at the University of Bras&iacute;lia and a visiting researcher at the University of Illinois at Chicago. I study how organized crime and political violence shape political life in Latin American cities, especially in Brazil, combining quantitative and qualitative methods.",
      "My interests are criminal governance, electoral behavior, political violence, and subnational politics in Latin America, with attention to public security and racial inequality.",
@@ -106,10 +106,10 @@ T = {
   "map_caption": "Where Black residents live in S&atilde;o Paulo, the bus runs slower. Bus speed by district, crossed with race and income. By Igor Novaes Lins.",
   "map_full": "Open full screen",
   "consulting": [
-     "I bring research-grade data work to public-interest questions. I take a question about a city or a population, find or build the data to answer it, cross it with race, income, gender, and territory, and turn it into a map, an index, and a technical note that an organization can act on and audit.",
-     "When the official record is thin, I collect the data myself. For S&atilde;o Paulo I built a real-time collector of the city&rsquo;s bus-position feed that has gathered tens of millions of GPS readings, runs unattended in the cloud, and alerts me when it falls. Crossing that collection with the racial composition of each district, I find that where most Black residents live the bus runs about 16% slower, and a Black resident reaches by public transport about 60% of the jobs a white resident reaches in the same hour.",
+     "I bring research-grade data work to public-interest questions. I take a question about a city or a population, find or build the data to answer it, and turn it into a map, an index, and a technical note that an organization can act on and audit.",
+     "When the official record is thin, I collect the data myself, including in real time, and I cross it with race, income, gender, and territory to see what averages hide. I work in R, from acquisition and cleaning to spatial analysis and publication-grade maps.",
      "Every number I hand over comes from a script that ran and is registered, so the product is reproducible and auditable by the people who use it. I name what the data does not show, and I read race and territory as separate things rather than collapsing them into one label.",
-     "I work with observatories, NGOs, think tanks, and public bodies that need this kind of evidence for advocacy and policy. Deliverables include interactive and static maps, spatial briefings and technical notes, open georeferenced datasets, dashboards, and composite indicators, built in R with a documented, reproducible pipeline.",
+     "I work with observatories, NGOs, think tanks, and public bodies that need this kind of evidence for advocacy and policy. Deliverables include interactive and static maps, spatial briefings and technical notes, open georeferenced datasets, dashboards, and composite indicators.",
   ],
 },
 "pt": {
@@ -133,7 +133,7 @@ T = {
      "writing": "Artigos de opinião e textos de Igor Novaes Lins sobre crime, segurança e democracia no Brasil.",
      "consulting": "Dados, mapas e análise reprodutível para organizações que trabalham com cidades, segurança e desigualdade na América Latina.",
   },
-  "page_h1": {"index":"Sobre","research":"Pesquisa","publications":"Publica&ccedil;&otilde;es","writing":"Na m&iacute;dia","consulting":"Pesquisa e Consultoria"},
+  "page_h1": {"index":"Sobre","research":"Pesquisa","publications":"Publica&ccedil;&otilde;es","writing":"Na m&iacute;dia","consulting":"Pesquisa e consultoria"},
   "about": [
      "Natural de S&atilde;o Paulo, sou cientista pol&iacute;tico, doutorando na Universidade de Bras&iacute;lia e pesquisador visitante na Universidade de Illinois em Chicago. Estudo como o crime organizado e a viol&ecirc;ncia pol&iacute;tica moldam a vida pol&iacute;tica nas cidades latino-americanas, especialmente no Brasil, combinando m&eacute;todos quantitativos e qualitativos.",
      "Meus interesses s&atilde;o governan&ccedil;a criminal, comportamento eleitoral, viol&ecirc;ncia pol&iacute;tica e pol&iacute;tica subnacional na Am&eacute;rica Latina, com aten&ccedil;&atilde;o &agrave; seguran&ccedil;a p&uacute;blica e &agrave; desigualdade racial.",
@@ -152,10 +152,10 @@ T = {
   "map_caption": "Onde mora a popula&ccedil;&atilde;o negra em S&atilde;o Paulo, o &ocirc;nibus anda mais devagar. Velocidade do transporte por distrito, cruzada com ra&ccedil;a e renda. Elabora&ccedil;&atilde;o: Igor Novaes Lins.",
   "map_full": "Ver em tela cheia",
   "consulting": [
-     "Levo trabalho de dados de n&iacute;vel acad&ecirc;mico a perguntas de interesse p&uacute;blico. Pego uma pergunta sobre uma cidade ou uma popula&ccedil;&atilde;o, encontro ou construo os dados para respond&ecirc;-la, cruzo com ra&ccedil;a, renda, g&ecirc;nero e territ&oacute;rio, e transformo isso em um mapa, um &iacute;ndice e uma nota t&eacute;cnica que uma organiza&ccedil;&atilde;o pode usar e auditar.",
-     "Quando o registro oficial &eacute; raso, eu mesmo coleto o dado. Para S&atilde;o Paulo, constru&iacute; um coletor em tempo real da posi&ccedil;&atilde;o dos &ocirc;nibus da cidade que j&aacute; reuniu dezenas de milh&otilde;es de leituras de GPS, roda sozinho na nuvem e me avisa quando cai. Cruzando essa coleta com a composi&ccedil;&atilde;o racial de cada distrito, encontro que onde mora mais popula&ccedil;&atilde;o negra o &ocirc;nibus anda cerca de 16% mais devagar, e um morador negro alcan&ccedil;a de &ocirc;nibus cerca de 60% dos empregos que um morador branco alcan&ccedil;a na mesma hora.",
+     "Levo trabalho de dados de n&iacute;vel acad&ecirc;mico a perguntas de interesse p&uacute;blico. Pego uma pergunta sobre uma cidade ou uma popula&ccedil;&atilde;o, encontro ou construo os dados para respond&ecirc;-la, e transformo isso em um mapa, um &iacute;ndice e uma nota t&eacute;cnica que uma organiza&ccedil;&atilde;o pode usar e auditar.",
+     "Quando o registro oficial &eacute; raso, eu mesmo coleto o dado, inclusive em tempo real, e cruzo com ra&ccedil;a, renda, g&ecirc;nero e territ&oacute;rio para ver o que as m&eacute;dias escondem. Trabalho em R, da coleta e limpeza &agrave; an&aacute;lise espacial e aos mapas em qualidade de publica&ccedil;&atilde;o.",
      "Todo n&uacute;mero que eu entrego vem de um script que rodou e est&aacute; registrado, ent&atilde;o o produto &eacute; reprodut&iacute;vel e audit&aacute;vel por quem o usa. Eu digo o que o dado n&atilde;o mostra, e leio ra&ccedil;a e territ&oacute;rio como coisas separadas, sem fundir as duas num r&oacute;tulo s&oacute;.",
-     "Trabalho com observat&oacute;rios, ONGs, think tanks e &oacute;rg&atilde;os p&uacute;blicos que precisam desse tipo de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. As entregas incluem mapas interativos e est&aacute;ticos, notas t&eacute;cnicas e briefings espaciais, bases georreferenciadas abertas, dashboards e &iacute;ndices compostos, feitos em R com um pipeline documentado e reprodut&iacute;vel.",
+     "Trabalho com observat&oacute;rios, ONGs, think tanks e &oacute;rg&atilde;os p&uacute;blicos que precisam desse tipo de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. As entregas incluem mapas interativos e est&aacute;ticos, notas t&eacute;cnicas e briefings espaciais, bases georreferenciadas abertas, dashboards e &iacute;ndices compostos.",
   ],
 },
 "es": {
@@ -179,7 +179,7 @@ T = {
      "writing": "Artículos de opinión de Igor Novaes Lins sobre crimen, seguridad y democracia en Brasil.",
      "consulting": "Datos, mapas y análisis reproducible para organizaciones que trabajan con ciudades, seguridad y desigualdad en América Latina.",
   },
-  "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Opini&oacute;n","consulting":"Investigaci&oacute;n y Consultor&iacute;a"},
+  "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Opini&oacute;n","consulting":"Investigaci&oacute;n y consultor&iacute;a"},
   "about": [
      "Natural de S&atilde;o Paulo, soy cient&iacute;fico pol&iacute;tico, doctorando en la Universidad de Brasilia e investigador visitante en la Universidad de Illinois en Chicago. Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
      "Mis intereses son la gobernanza criminal, el comportamiento electoral, la violencia pol&iacute;tica y la pol&iacute;tica subnacional en Am&eacute;rica Latina, con atenci&oacute;n a la seguridad p&uacute;blica y la desigualdad racial.",
@@ -198,10 +198,10 @@ T = {
   "map_caption": "Donde vive la poblaci&oacute;n negra en S&atilde;o Paulo, el autob&uacute;s anda m&aacute;s lento. Velocidad del transporte por distrito, cruzada con raza e ingreso. Elaboraci&oacute;n: Igor Novaes Lins.",
   "map_full": "Ver en pantalla completa",
   "consulting": [
-     "Llevo trabajo de datos de nivel acad&eacute;mico a preguntas de inter&eacute;s p&uacute;blico. Tomo una pregunta sobre una ciudad o una poblaci&oacute;n, encuentro o construyo los datos para responderla, la cruzo con raza, ingreso, g&eacute;nero y territorio, y la convierto en un mapa, un &iacute;ndice y una nota t&eacute;cnica que una organizaci&oacute;n puede usar y auditar.",
-     "Cuando el registro oficial es delgado, recojo el dato yo mismo. Para S&atilde;o Paulo constru&iacute; un colector en tiempo real de la posici&oacute;n de los autobuses de la ciudad que ya reuni&oacute; decenas de millones de lecturas de GPS, corre solo en la nube y me avisa cuando se cae. Cruzando esa recolecci&oacute;n con la composici&oacute;n racial de cada distrito, encuentro que donde vive m&aacute;s poblaci&oacute;n negra el autob&uacute;s anda cerca de 16% m&aacute;s lento, y un residente negro alcanza en transporte p&uacute;blico cerca del 60% de los empleos que un residente blanco alcanza en la misma hora.",
+     "Llevo trabajo de datos de nivel acad&eacute;mico a preguntas de inter&eacute;s p&uacute;blico. Tomo una pregunta sobre una ciudad o una poblaci&oacute;n, encuentro o construyo los datos para responderla, y la convierto en un mapa, un &iacute;ndice y una nota t&eacute;cnica que una organizaci&oacute;n puede usar y auditar.",
+     "Cuando el registro oficial es delgado, recojo el dato yo mismo, incluso en tiempo real, y lo cruzo con raza, ingreso, g&eacute;nero y territorio para ver lo que esconden los promedios. Trabajo en R, de la recolecci&oacute;n y limpieza al an&aacute;lisis espacial y a los mapas en calidad de publicaci&oacute;n.",
      "Cada n&uacute;mero que entrego viene de un script que corri&oacute; y est&aacute; registrado, as&iacute; que el producto es reproducible y auditable por quienes lo usan. Digo lo que el dato no muestra, y leo raza y territorio como cosas separadas, sin fundir ambas en una sola etiqueta.",
-     "Trabajo con observatorios, ONG, think tanks y organismos p&uacute;blicos que necesitan este tipo de evidencia para incidencia y pol&iacute;tica p&uacute;blica. Las entregas incluyen mapas interactivos y est&aacute;ticos, notas t&eacute;cnicas y briefings espaciales, bases georreferenciadas abiertas, tableros e &iacute;ndices compuestos, hechos en R con un pipeline documentado y reproducible.",
+     "Trabajo con observatorios, ONG, think tanks y organismos p&uacute;blicos que necesitan este tipo de evidencia para incidencia y pol&iacute;tica p&uacute;blica. Las entregas incluyen mapas interactivos y est&aacute;ticos, notas t&eacute;cnicas y briefings espaciales, bases georreferenciadas abiertas, tableros e &iacute;ndices compuestos.",
   ],
 },
 }
