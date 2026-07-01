@@ -122,6 +122,14 @@ ul.areas li::before{
   content:"";position:absolute;left:0;top:.6em;width:5px;height:5px;background:var(--red);border-radius:50%;
 }
 
+/* call to action (consulting) */
+.cta{
+  margin-top:1.8rem;font-family:var(--display);font-weight:600;font-size:1.08rem;
+  letter-spacing:-.012em;color:var(--ink);line-height:1.4;
+}
+.cta a{color:var(--red);font-weight:700;text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:3px}
+.cta a:hover{color:var(--red);text-decoration:underline}
+
 footer{
   margin-top:3.2rem;padding-top:1.15rem;color:var(--faint);font-family:var(--sans);
   font-size:.79rem;font-weight:500;position:relative;

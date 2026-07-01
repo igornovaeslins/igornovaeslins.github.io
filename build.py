@@ -214,8 +214,9 @@ T = {
      "I am a social scientist who works at the intersection of research and public policy. Organizations working on cities, security, and inequality often face questions the available evidence does not answer. I help them answer those questions, bringing the method each one calls for and a clear reading of the politics and institutions in play.",
      "I bring quantitative and qualitative evidence to the same problem &mdash; administrative and survey data, interviews and fieldwork, the analysis of discourse and documents, and maps when the answer is spatial. When the official record is thin, I build the data myself, including in real time, and look in it for the inequalities of race, income, gender, and territory that averages hide.",
      "My work is built to be trusted and checked. I document how I reach each result and stay explicit about what the evidence supports and what it leaves open.",
-     "I work with observatories, NGOs, think tanks, and public agencies that need this kind of evidence for advocacy and policy. The work takes the form its question requires &mdash; a diagnosis, a technical note or evidence review, a map, an open dataset or indicator, or the strategy to carry a decision through.",
+     "I work with observatories, NGOs, think tanks, and public agencies that need evidence for advocacy and policy. The work takes the form its question requires &mdash; a diagnosis, a technical note or evidence review, a map, an open dataset or indicator, or the strategy to carry a decision through.",
   ],
+  "consulting_cta": 'Want to shape decision-making with data? <a href="mailto:igornovaeslins@gmail.com">Get in touch!</a>',
 },
 "pt": {
   "nav": [("index","Sobre"),("research","Pesquisa"),("writing","Atua&ccedil;&atilde;o p&uacute;blica"),("consulting","Consultoria")],
@@ -263,8 +264,9 @@ T = {
      "Sou cientista social e trabalho no cruzamento entre a pesquisa e a pol&iacute;tica p&uacute;blica. Organiza&ccedil;&otilde;es que atuam com cidades, seguran&ccedil;a e desigualdade muitas vezes enfrentam perguntas que a evid&ecirc;ncia dispon&iacute;vel n&atilde;o responde. Ajudo a respond&ecirc;-las com o m&eacute;todo que cada uma pede e com uma leitura clara da pol&iacute;tica e das institui&ccedil;&otilde;es em jogo.",
      "Levo evid&ecirc;ncia quantitativa e qualitativa ao mesmo problema &mdash; dados administrativos e de pesquisa amostral, entrevistas e trabalho de campo, an&aacute;lise de discurso e de documentos, e mapas quando a resposta &eacute; espacial. Quando o registro oficial &eacute; escasso, construo a base eu mesmo, inclusive em tempo real, e busco nela as desigualdades de ra&ccedil;a, renda, g&ecirc;nero e territ&oacute;rio que as m&eacute;dias escondem.",
      "Trabalho para que o resultado possa ser conferido por quem depende dele. Documento como chego a cada conclus&atilde;o e sou claro sobre o que a evid&ecirc;ncia sustenta e o que ela deixa em aberto.",
-     "Trabalho com observat&oacute;rios, ONGs, institutos de pesquisa e &oacute;rg&atilde;os p&uacute;blicos que precisam desse tipo de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. O produto assume a forma que a pergunta exige &mdash; um diagn&oacute;stico, uma nota t&eacute;cnica ou uma s&iacute;ntese de evid&ecirc;ncias, um mapa, uma base de dados aberta, um indicador, ou a estrat&eacute;gia para levar uma decis&atilde;o adiante.",
+     "Trabalho com observat&oacute;rios, ONGs, institutos de pesquisa e &oacute;rg&atilde;os p&uacute;blicos que precisam de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. O produto assume a forma que a pergunta exige &mdash; um diagn&oacute;stico, uma nota t&eacute;cnica ou uma s&iacute;ntese de evid&ecirc;ncias, um mapa, uma base de dados aberta, um indicador, ou a estrat&eacute;gia para levar uma decis&atilde;o adiante.",
   ],
+  "consulting_cta": 'Quer influenciar a tomada de decis&atilde;o por meio de dados? <a href="mailto:igornovaeslins@gmail.com">Entre em contato!</a>',
 },
 "es": {
   "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Participaci&oacute;n p&uacute;blica"),("consulting","Consultor&iacute;a")],
@@ -312,8 +314,9 @@ T = {
      "Soy cient&iacute;fico social y trabajo en el cruce entre la investigaci&oacute;n y la pol&iacute;tica p&uacute;blica. Las organizaciones que trabajan con ciudades, seguridad y desigualdad muchas veces enfrentan preguntas que la evidencia disponible no responde. Ayudo a responderlas con el m&eacute;todo que cada una pide y con una lectura clara de la pol&iacute;tica y las instituciones en juego.",
      "Llevo evidencia cuantitativa y cualitativa al mismo problema &mdash; datos administrativos y de encuesta, entrevistas y trabajo de campo, an&aacute;lisis de discurso y de documentos, y mapas cuando la respuesta es espacial. Cuando el registro oficial es escaso, construyo la base yo mismo, incluso en tiempo real, y busco en ella las desigualdades de raza, ingreso, g&eacute;nero y territorio que los promedios esconden.",
      "Trabajo para que el resultado pueda comprobarse por quien depende de &eacute;l. Documento c&oacute;mo llego a cada conclusi&oacute;n y soy claro sobre lo que la evidencia sostiene y lo que deja abierto.",
-     "Trabajo con observatorios, ONG, institutos de investigaci&oacute;n y organismos p&uacute;blicos que necesitan este tipo de evidencia para incidencia y pol&iacute;tica p&uacute;blica. El producto toma la forma que la pregunta exige &mdash; un diagn&oacute;stico, una nota t&eacute;cnica o una s&iacute;ntesis de evidencia, un mapa, una base de datos abierta, un indicador, o la estrategia para llevar una decisi&oacute;n adelante.",
+     "Trabajo con observatorios, ONG, institutos de investigaci&oacute;n y organismos p&uacute;blicos que necesitan evidencia para incidencia y pol&iacute;tica p&uacute;blica. El producto toma la forma que la pregunta exige &mdash; un diagn&oacute;stico, una nota t&eacute;cnica o una s&iacute;ntesis de evidencia, un mapa, una base de datos abierta, un indicador, o la estrategia para llevar una decisi&oacute;n adelante.",
   ],
+  "consulting_cta": '&iquest;Quiere influir en la toma de decisiones con datos? <a href="mailto:igornovaeslins@gmail.com">&iexcl;P&oacute;ngase en contacto!</a>',
 },
 }
 
@@ -424,6 +427,7 @@ def render_main(lang, page):
         paras = t["consulting"]
         inner = '<p class="lead">%s</p>' % paras[0]
         inner += "".join("<p>%s</p>" % p for p in paras[1:])
+        inner += '<p class="cta">%s</p>' % t["consulting_cta"]
     jsonld = render_jsonld(lang) if page == "index" else ""
     kicker = '<p class="kicker">%s</p>\n  ' % t["kicker_index"] if page == "index" else ""
     return """<main>
