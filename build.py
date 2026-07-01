@@ -211,10 +211,10 @@ T = {
   "map_caption": "Where Black residents live in S&atilde;o Paulo, the bus runs slower. Bus speed by district, crossed with race and income. By Igor Novaes Lins.",
   "map_full": "Open full screen",
   "consulting": [
-     "I turn public-interest questions about cities and populations into evidence an organization can use. I take the question, find or build the data to answer it, and deliver it as a map, an index, and a technical note that can be audited.",
-     "When the official record is thin, I collect the data myself, including in real time, and cross it with race, income, gender, and territory to see what averages hide. I work in R, from acquisition and cleaning to spatial analysis and publication-ready maps.",
-     "Every number I hand over comes from a script that ran and was logged, so the product is reproducible and auditable by the people who use it. I say what the data does not show, and I read race and territory as separate axes.",
-     "I work with observatories, NGOs, think tanks, and public bodies that need this kind of evidence for advocacy and policy. Deliverables include interactive and static maps, technical notes and spatial briefings, open georeferenced datasets, dashboards, and composite indicators.",
+     "I work at the intersection of applied research and public policy. Organizations working on cities, security, and inequality often have to decide on evidence that official statistics do not cover. I produce that evidence. I start from the question the organization needs answered, find or build the data, and turn the result into a map, an index, or a technical note it can use and audit.",
+     "When the official record is thin, I build the dataset myself, including in real time, and I disaggregate it by race, income, gender, and territory, read as distinct axes, to surface the inequalities that aggregates hide. The whole pipeline runs in R, from acquisition and cleaning to spatial analysis and publication-ready maps.",
+     "Every figure I hand over comes from a script that runs end to end and stays on the record, so the result is reproducible and auditable by whoever relies on it. I also state plainly what the data cannot show.",
+     "I work with observatories, NGOs, think tanks, and public agencies that need this kind of evidence for advocacy and policy. Typical deliverables are interactive and static maps, technical notes and spatial briefings, open georeferenced datasets, dashboards, and composite indicators.",
   ],
 },
 "pt": {
@@ -260,10 +260,10 @@ T = {
   "map_caption": "Onde mora a popula&ccedil;&atilde;o negra em S&atilde;o Paulo, o &ocirc;nibus anda mais devagar. Velocidade do transporte por distrito, cruzada com ra&ccedil;a e renda. Elabora&ccedil;&atilde;o: Igor Novaes Lins.",
   "map_full": "Ver em tela cheia",
   "consulting": [
-     "Transformo perguntas de interesse p&uacute;blico sobre cidades e popula&ccedil;&otilde;es em evid&ecirc;ncia que uma organiza&ccedil;&atilde;o pode usar. Pego a pergunta, encontro ou construo os dados para respond&ecirc;-la e entrego o resultado como um mapa, um &iacute;ndice e uma nota t&eacute;cnica pass&iacute;vel de auditoria.",
-     "Quando o registro oficial &eacute; escasso, coleto o dado eu mesmo, inclusive em tempo real, e o cruzo com ra&ccedil;a, renda, g&ecirc;nero e territ&oacute;rio para ver o que as m&eacute;dias escondem. Trabalho em R, da coleta e limpeza &agrave; an&aacute;lise espacial e a mapas prontos para publica&ccedil;&atilde;o.",
-     "Todo n&uacute;mero que entrego vem de um script que rodou e ficou registrado, de modo que o produto &eacute; reprodut&iacute;vel e audit&aacute;vel por quem o usa. Digo o que o dado n&atilde;o mostra e leio ra&ccedil;a e territ&oacute;rio como eixos separados.",
-     "Trabalho com observat&oacute;rios, ONGs, institutos de pesquisa e &oacute;rg&atilde;os p&uacute;blicos que precisam desse tipo de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. As entregas incluem mapas interativos e est&aacute;ticos, notas t&eacute;cnicas e s&iacute;nteses espaciais, bases georreferenciadas abertas, pain&eacute;is e &iacute;ndices compostos.",
+     "Atuo no cruzamento entre a pesquisa aplicada e a pol&iacute;tica p&uacute;blica. Organiza&ccedil;&otilde;es que trabalham com cidades, seguran&ccedil;a e desigualdade muitas vezes precisam decidir com base em evid&ecirc;ncia que a estat&iacute;stica oficial n&atilde;o cobre. Produzo essa evid&ecirc;ncia. Parto da pergunta que a organiza&ccedil;&atilde;o precisa responder, encontro ou construo os dados e transformo o resultado em um mapa, um &iacute;ndice ou uma nota t&eacute;cnica que ela possa usar e auditar.",
+     "Quando o registro oficial &eacute; escasso, construo a base eu mesmo, inclusive em tempo real, e a desagrego por ra&ccedil;a, renda, g&ecirc;nero e territ&oacute;rio, lidos como eixos distintos, para revelar as desigualdades que as m&eacute;dias encobrem. Todo o fluxo roda em R, da coleta e limpeza &agrave; an&aacute;lise espacial e a mapas prontos para publica&ccedil;&atilde;o.",
+     "Todo n&uacute;mero que entrego vem de um script que roda de ponta a ponta e fica registrado, de modo que o resultado &eacute; reprodut&iacute;vel e audit&aacute;vel por quem depende dele. Digo tamb&eacute;m, com clareza, o que o dado n&atilde;o mostra.",
+     "Trabalho com observat&oacute;rios, ONGs, institutos de pesquisa e &oacute;rg&atilde;os p&uacute;blicos que precisam desse tipo de evid&ecirc;ncia para incid&ecirc;ncia e pol&iacute;tica p&uacute;blica. As entregas habituais s&atilde;o mapas interativos e est&aacute;ticos, notas t&eacute;cnicas e s&iacute;nteses espaciais, bases georreferenciadas abertas, pain&eacute;is e &iacute;ndices compostos.",
   ],
 },
 "es": {
@@ -309,10 +309,10 @@ T = {
   "map_caption": "Donde vive la poblaci&oacute;n negra en S&atilde;o Paulo, el autob&uacute;s anda m&aacute;s lento. Velocidad del transporte por distrito, cruzada con raza e ingreso. Elaboraci&oacute;n: Igor Novaes Lins.",
   "map_full": "Ver en pantalla completa",
   "consulting": [
-     "Convierto preguntas de inter&eacute;s p&uacute;blico sobre ciudades y poblaciones en evidencia que una organizaci&oacute;n puede usar. Tomo la pregunta, encuentro o construyo los datos para responderla y entrego el resultado como un mapa, un &iacute;ndice y una nota t&eacute;cnica que puede auditarse.",
-     "Cuando el registro oficial es escaso, recojo el dato yo mismo, incluso en tiempo real, y lo cruzo con raza, ingreso, g&eacute;nero y territorio para ver lo que esconden los promedios. Trabajo en R, de la recolecci&oacute;n y limpieza al an&aacute;lisis espacial y a mapas listos para publicaci&oacute;n.",
-     "Cada n&uacute;mero que entrego proviene de un script que corri&oacute; y qued&oacute; registrado, de modo que el producto es reproducible y auditable por quienes lo usan. Digo lo que el dato no muestra y leo raza y territorio como ejes separados.",
-     "Trabajo con observatorios, ONG, institutos de investigaci&oacute;n y organismos p&uacute;blicos que necesitan este tipo de evidencia para incidencia y pol&iacute;tica p&uacute;blica. Las entregas incluyen mapas interactivos y est&aacute;ticos, notas t&eacute;cnicas y s&iacute;ntesis espaciales, bases georreferenciadas abiertas, tableros e &iacute;ndices compuestos.",
+     "Trabajo en el cruce entre la investigaci&oacute;n aplicada y la pol&iacute;tica p&uacute;blica. Las organizaciones que trabajan con ciudades, seguridad y desigualdad muchas veces tienen que decidir con evidencia que la estad&iacute;stica oficial no cubre. Produzco esa evidencia. Parto de la pregunta que la organizaci&oacute;n necesita responder, encuentro o construyo los datos y convierto el resultado en un mapa, un &iacute;ndice o una nota t&eacute;cnica que pueda usar y auditar.",
+     "Cuando el registro oficial es escaso, construyo la base yo mismo, incluso en tiempo real, y la desagrego por raza, ingreso, g&eacute;nero y territorio, le&iacute;dos como ejes distintos, para revelar las desigualdades que los promedios ocultan. Todo el flujo corre en R, de la recolecci&oacute;n y limpieza al an&aacute;lisis espacial y a mapas listos para publicaci&oacute;n.",
+     "Cada n&uacute;mero que entrego proviene de un script que corre de principio a fin y queda registrado, de modo que el resultado es reproducible y auditable por quien depende de &eacute;l. Digo tambi&eacute;n, con claridad, lo que el dato no puede mostrar.",
+     "Trabajo con observatorios, ONG, institutos de investigaci&oacute;n y organismos p&uacute;blicos que necesitan este tipo de evidencia para incidencia y pol&iacute;tica p&uacute;blica. Las entregas habituales son mapas interactivos y est&aacute;ticos, notas t&eacute;cnicas y s&iacute;ntesis espaciales, bases georreferenciadas abiertas, tableros e &iacute;ndices compuestos.",
   ],
 },
 }
