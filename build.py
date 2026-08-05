@@ -72,8 +72,8 @@ PUBS_EN = [
         'Giannini, R. A., Lins, I. N., &amp; Aguirre, K. (2024). Challenges and recommendations for the Amazon from women human rights and environmental defenders in Peru. <span class="venue">Igarap&eacute; Institute.</span> <a href="https://igarape.org.br/en/challenges-and-recommendations-for-the-amazon-peru/" rel="noopener" target="_blank">igarape.org.br</a>',
     ]),
     ("papers", [
+        'Lins, I. N. (2026). Who can compete under criminal governments? Political selection in local elections. <em>SSRN</em>. <span class="tag award">ABCP&ndash;Quaest Prize &middot; 1st place</span><br><a href="https://ssrn.com/abstract=6849338" rel="noopener" target="_blank">ssrn.com/abstract=6849338</a>',
         'Lins, I. N. (2026). Voting under criminal governance: electoral mobilization by criminal organizations. <em>SSRN</em>. <span class="tag">under review</span><br><a href="https://ssrn.com/abstract=6672040" rel="noopener" target="_blank">ssrn.com/abstract=6672040</a>',
-        'Lins, I. N. (2026). Who can compete under criminal governments? Political selection in local elections. <em>SSRN</em>.<br><a href="https://ssrn.com/abstract=6849338" rel="noopener" target="_blank">ssrn.com/abstract=6849338</a>',
         'Lins, I. N. (2026). Criminal order and gendered violence: gang control, state repression, and violence against women in Chicago. <em>SSRN</em>.<br><a href="https://ssrn.com/abstract=6873281" rel="noopener" target="_blank">ssrn.com/abstract=6873281</a>',
         'Lins, I. N. (2026). Criminal governance and electoral capture in Rio de Janeiro: a spatial typology of the vote (2008&ndash;2024). <span class="venue">Working paper.</span>',
         'Lins, I. N. (2026). When police governance redraws the territorial borders of criminal governance. <span class="venue">Working paper.</span>',

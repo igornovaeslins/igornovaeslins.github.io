@@ -111,6 +111,7 @@ ol.list li:last-child{margin-bottom:0}
 .tags .tag{margin-left:0}
 a.tag{transition:background .12s ease,color .12s ease}
 a.tag:hover{background:var(--red);color:#fff;text-decoration:none}
+.tag.award{background:var(--red);color:#fff}
 
 /* consulting areas */
 ul.areas{
