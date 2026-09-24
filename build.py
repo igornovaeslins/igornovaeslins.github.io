@@ -53,6 +53,7 @@ PUB_TAGS = {
     "chapters": [["t-institutions"], ["t-institutions"]],
     "reports":  [["t-collapse"], ["t-governance", "t-collapse"]],
     "papers":   [["t-governance"], ["t-governance"], ["t-collapse"], ["t-governance"], ["t-state"], ["t-governance"], ["t-collapse"]],
+    "data":     [["t-institutions"]],
 }
 
 PUBS_EN = [
@@ -95,10 +96,35 @@ PUBS_PT_CHAPTERS = [
     'Giannini, R., Lins, I. N., Cerqueira, M., &amp; Leite, R. (2023). Recomenda&ccedil;&otilde;es para fortalecer o sistema de m&eacute;rito do servi&ccedil;o p&uacute;blico. In G. Lotta &amp; V. Campagnac (Org.), <em>Rep&uacute;blica em Notas</em> (Vol. 1, pp. 355&ndash;365). Rio de Janeiro: Cobog&oacute;.',
 ]
 
+DATASETS = {
+  "en": [
+    'Lins, I. N. (2026). Brazilian elective office occupancy database (BOCEL). <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a>',
+  ],
+  "pt": [
+    'Lins, I. N. (2026). Banco de ocupa&ccedil;&atilde;o de cargos eletivos no Brasil (BOCEL). <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a>',
+  ],
+}
+DATASETS["es"] = DATASETS["pt"]
+
+# Status/award chips inside the (English-titled) working papers, localized for PT and ES pages.
+TAG_TEXT = {
+  "pt": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Pr&ecirc;mio ABCP/Quaest &middot; 1&ordm; lugar", ">under review<": ">em avalia&ccedil;&atilde;o<"},
+  "es": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Premio ABCP/Quaest &middot; primer lugar", ">under review<": ">en evaluaci&oacute;n<"},
+}
+
+def localize_tags(lang, items):
+    out = []
+    for it in items:
+        for a, b in TAG_TEXT[lang].items():
+            it = it.replace(a, b)
+        out.append(it)
+    return out
+
 def pubs_for(lang):
     if lang == "en":
-        return PUBS_EN
-    return [("articles", PUBS_PT_ARTICLES), ("chapters", PUBS_PT_CHAPTERS)] + [(k, v) for k, v in PUBS_EN if k in ("reports", "papers")]
+        return PUBS_EN + [("data", DATASETS["en"])]
+    rest = [(k, localize_tags(lang, v) if k == "papers" else v) for k, v in PUBS_EN if k in ("reports", "papers")]
+    return [("articles", PUBS_PT_ARTICLES), ("chapters", PUBS_PT_CHAPTERS)] + rest + [("data", DATASETS[lang])]
 
 OPEDS = {
   "pt": [
@@ -204,7 +230,7 @@ T = {
      ("Race and political violence", "Political violence in Brazil has a racial grammar. Who becomes a target in political life, and where, runs along two lines that I keep separate, one of race and one of territory. I also show how parliamentary discourse normalizes police lethality against Black citizens."),
      ("Democratic institutions and civic space", "Alongside crime, I work on the institutions of democracy and the space for civic life. I have studied the merit-based civil service and the patronage that wears it down, and the social movements that contest the boundaries of civic space. What ties this to my main agenda is capture, the takeover of public institutions by private interests."),
   ],
-  "groups": {"articles":"Peer-reviewed articles","chapters":"Book chapters","reports":"Technical reports","papers":"Working papers &amp; preprints"},
+  "groups": {"articles":"Peer-reviewed articles","chapters":"Book chapters","reports":"Technical reports","papers":"Working papers &amp; preprints","data":"Datasets"},
   "writing_lead": "I take part in public debate on crime, security, climate, and democracy, through op-eds, the media, and public hearings.",
   "writing_groups": {"talks": "Talks &amp; public hearings", "media": "Interviews &amp; media", "opeds": "Op-eds"},
   "pubs_label": "publications",
@@ -254,7 +280,7 @@ T = {
      ("Ra&ccedil;a e viol&ecirc;ncia pol&iacute;tica", "A viol&ecirc;ncia pol&iacute;tica no Brasil tem uma gram&aacute;tica racial. Quem vira alvo na vida pol&iacute;tica, e onde, corre por duas linhas que mantenho separadas, a de ra&ccedil;a e a de territ&oacute;rio. Mostro tamb&eacute;m como o discurso parlamentar normaliza a letalidade policial contra cidad&atilde;os negros."),
      ("Institui&ccedil;&otilde;es democr&aacute;ticas e espa&ccedil;o c&iacute;vico", "Al&eacute;m do crime, trabalho com as institui&ccedil;&otilde;es da democracia e com o espa&ccedil;o da vida c&iacute;vica. Estudei o sistema de m&eacute;rito do servi&ccedil;o p&uacute;blico e o clientelismo que o corr&oacute;i, e os movimentos sociais que disputam os limites do espa&ccedil;o c&iacute;vico. O que liga isso &agrave; minha agenda principal &eacute; a captura, a tomada de institui&ccedil;&otilde;es p&uacute;blicas por interesses privados."),
   ],
-  "groups": {"articles":"Artigos em peri&oacute;dico","chapters":"Cap&iacute;tulos de livro","reports":"Relat&oacute;rios t&eacute;cnicos","papers":"Working papers e preprints"},
+  "groups": {"articles":"Artigos em peri&oacute;dico","chapters":"Cap&iacute;tulos de livro","reports":"Relat&oacute;rios t&eacute;cnicos","papers":"Working papers e preprints","data":"Bases de dados"},
   "writing_lead": "Participo do debate p&uacute;blico sobre crime, seguran&ccedil;a, clima e democracia, em artigos, na m&iacute;dia e em audi&ecirc;ncias p&uacute;blicas.",
   "writing_groups": {"talks": "Palestras e audi&ecirc;ncias p&uacute;blicas", "media": "Entrevistas e m&iacute;dia", "opeds": "Artigos de opini&atilde;o"},
   "pubs_label": "publica&ccedil;&otilde;es",
@@ -304,7 +330,7 @@ T = {
      ("Raza y violencia pol&iacute;tica", "La violencia pol&iacute;tica en Brasil tiene una gram&aacute;tica racial. Qui&eacute;n se vuelve blanco en la vida pol&iacute;tica, y d&oacute;nde, corre por dos l&iacute;neas que mantengo separadas, la de raza y la de territorio. Muestro tambi&eacute;n c&oacute;mo el discurso parlamentario normaliza la letalidad policial contra los ciudadanos negros."),
      ("Instituciones democr&aacute;ticas y espacio c&iacute;vico", "M&aacute;s all&aacute; del crimen, trabajo con las instituciones de la democracia y con el espacio de la vida c&iacute;vica. Estudi&eacute; el sistema de m&eacute;rito del servicio p&uacute;blico y el clientelismo que lo desgasta, y los movimientos sociales que disputan los l&iacute;mites del espacio c&iacute;vico. Lo que liga esto con mi agenda principal es la captura, la toma de las instituciones p&uacute;blicas por intereses privados."),
   ],
-  "groups": {"articles":"Art&iacute;culos en revistas","chapters":"Cap&iacute;tulos de libro","reports":"Informes t&eacute;cnicos","papers":"Working papers y preprints"},
+  "groups": {"articles":"Art&iacute;culos en revistas","chapters":"Cap&iacute;tulos de libro","reports":"Informes t&eacute;cnicos","papers":"Working papers y preprints","data":"Bases de datos"},
   "writing_lead": "Participo en el debate p&uacute;blico sobre crimen, seguridad, clima y democracia, en art&iacute;culos, en los medios y en audiencias p&uacute;blicas.",
   "writing_groups": {"talks": "Charlas y audiencias p&uacute;blicas", "media": "Entrevistas y medios", "opeds": "Art&iacute;culos de opini&oacute;n"},
   "pubs_label": "publicaciones",
