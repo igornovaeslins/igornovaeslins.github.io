@@ -74,10 +74,10 @@ PUBS_EN = [
     ]),
     ("papers", [
         'Lins, I. N. (2026). Who can compete under criminal governments? Political selection in local elections. <em>SSRN</em>. <span class="tag award">ABCP&ndash;Quaest Prize &middot; 1st place</span><br><a href="https://ssrn.com/abstract=6849338" rel="noopener" target="_blank">ssrn.com/abstract=6849338</a>',
-        'Lins, I. N. (2026). Voting under criminal governance: electoral mobilization by criminal organizations. <em>SSRN</em>. <span class="tag">under review</span><br><a href="https://ssrn.com/abstract=6672040" rel="noopener" target="_blank">ssrn.com/abstract=6672040</a>',
-        'Lins, I. N. (2026). Criminal order and gendered violence: gang control, state repression, and violence against women in Chicago. <em>SSRN</em>.<br><a href="https://ssrn.com/abstract=6873281" rel="noopener" target="_blank">ssrn.com/abstract=6873281</a>',
+        'Lins, I. N. (2026). Voting under criminal governance: electoral mobilization by criminal organizations. <em>SSRN</em>.<br><a href="https://ssrn.com/abstract=6672040" rel="noopener" target="_blank">ssrn.com/abstract=6672040</a> &middot; <a href="https://doi.org/10.21203/rs.3.rs-9534248/v1" rel="noopener" target="_blank">doi.org/10.21203/rs.3.rs-9534248/v1</a>',
+        'Lins, I. N. (2026). The two accountings of gendered violence: criminal order, police legitimacy, and recorded violence in Chicago. <em>SSRN</em>. <span class="tag">under review</span><br><a href="https://ssrn.com/abstract=6873281" rel="noopener" target="_blank">ssrn.com/abstract=6873281</a>',
         'Lins, I. N. (2026). Criminal governance and electoral capture in Rio de Janeiro: a spatial typology of the vote (2008&ndash;2024). <span class="venue">Working paper.</span>',
-        'Lins, I. N. (2026). When police governance redraws the territorial borders of criminal governance. <span class="venue">Working paper.</span>',
+        'Lins, I. N. (2026). Redistributing policing and state lethality under criminal governance. <span class="venue">Working paper.</span>',
         'Lins, I. N., &amp; Albarrac&iacute;n, J. (2026). When it overflows: the national turn of criminalised politics in Brazilian democracy. <span class="venue">Working paper.</span>',
         'Lins, I. N., &amp; Maia, B. (2026). Who can commit violence? Criminal governance and the reorganization of gender violence (Rio, Bel&eacute;m, Chicago). <span class="venue">Working paper.</span>',
     ]),
@@ -149,7 +149,7 @@ OPEDS = {
 INTERVIEWS = {
   "pt": [
     'Lins, I. N. (2025). Entrevista &agrave; r&aacute;dio sueca sobre o PL do licenciamento ambiental (&ldquo;PL da devasta&ccedil;&atilde;o&rdquo;). <em>Sveriges Radio (Ekot)</em>.',
-    'Lins, I. N. (2023). Chacinas comprometeram plano de seguran&ccedil;a de Dino. <em>Correio da Manh&atilde;</em>. <a href="https://correiodamanha.com.br/politica/2023/10/98656-chacinas-comprometeram-plano-de-seguranca-de-dino.html" rel="noopener" target="_blank">correiodamanha.com.br</a>',
+    'Lins, I. N. (2023). Chacinas comprometeram plano de seguran&ccedil;a de Dino? <em>Correio da Manh&atilde;</em>. <a href="https://correiodamanha.com.br/politica/2023/10/98656-chacinas-comprometeram-plano-de-seguranca-de-dino.html" rel="noopener" target="_blank">correiodamanha.com.br</a>',
     'Lins, I. N. (2022). Norte e Nordeste ser&atilde;o as &uacute;ltimas regi&otilde;es a darem in&iacute;cio &agrave; contagem de votos. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/10/5047995-norte-e-nordeste-serao-as-ultimas-regioes-a-darem-inicio-a-contagem-de-votos.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N. (2022). Assassinato de petista por bolsonarista eleva tens&atilde;o &agrave;s v&eacute;speras da elei&ccedil;&atilde;o. <em>Correio Braziliense</em>. <a href="https://www.correiobraziliense.com.br/politica/2022/09/5035865-assassinato-de-petista-por-bolsonarista-eleva-tensao-as-vesperas-da-eleicao.html" rel="noopener" target="_blank">correiobraziliense.com.br</a>',
     'Lins, I. N., &amp; Paz, H. (2020). Persegui&ccedil;&atilde;o e viol&ecirc;ncia a ativistas e lideran&ccedil;as pol&iacute;ticas negras e perif&eacute;ricas. <span class="venue">Mesa redonda, r&aacute;dio/TV.</span>',
@@ -198,7 +198,7 @@ T = {
   "nav": [("index","About"),("research","Research"),("writing","Public engagement"),("consulting","Consulting")],
   "tagline": "Criminal governance and politics in Latin America",
   "kicker_index": "Political scientist",
-  "current": "PhD candidate, <strong>University of Bras&iacute;lia</strong> &middot; Visiting researcher, <strong>University of Illinois at Chicago</strong>",
+  "current": "Postdoctoral researcher, <strong>CEBRAP</strong> &middot; PhD, <strong>University of Bras&iacute;lia</strong>",
   "footer": "&copy; 2026 Igor Novaes Lins",
   "skip_alt": "Igor Novaes Lins",
   "titles": {
@@ -210,17 +210,17 @@ T = {
   },
   "desc": {
      "index": "Igor Novaes Lins studies criminal governance and politics in Latin America — how armed criminal groups reshape political life, with Rio de Janeiro as the main case.",
-     "research": "Research on criminal governance and the vote, the state and crime, collapse and gendered violence, and racial political violence in Latin America.",
+     "research": "Research on criminal governance and the vote, the state and crime, collapse and gendered violence, racial political violence, and democratic institutions in Latin America.",
      "publications": "Articles, book chapters, reports, and working papers by Igor Novaes Lins on criminal governance, elections, and political violence.",
      "writing": "Op-eds, interviews, and public engagement by Igor Novaes Lins on crime, security, climate, and democracy.",
-     "consulting": "Data, maps, and reproducible analysis for organizations working on cities, security, and inequality in Latin America.",
+     "consulting": "Applied social science at the intersection of research and public policy, for organizations working on cities, security, and inequality in Latin America.",
   },
   "page_h1": {"index":"About","research":"Research","publications":"Publications","writing":"Public engagement","consulting":"Research &amp; consulting"},
   "about": [
-     "Born in S&atilde;o Paulo, I am a political scientist, a doctoral candidate at the University of Bras&iacute;lia and a visiting researcher at the University of Illinois at Chicago. I study how organized crime and political violence shape political life in Latin American cities, especially in Brazil, combining quantitative and qualitative methods.",
+     "Born in S&atilde;o Paulo, I am a political scientist, a postdoctoral researcher at the Brazilian Center for Analysis and Planning (CEBRAP). I study how organized crime and political violence shape political life in Latin American cities, especially in Brazil, combining quantitative and qualitative methods.",
      "My interests are criminal governance, electoral behavior, political violence, and subnational politics in Latin America, with attention to public security and racial inequality.",
      "My work has lived inside and outside the academy. I was a researcher at the Igarap&eacute; Institute, working on public security and civic space, and I authored a report on women environmental defenders in Peru, presented at COP28. I have also worked in the Brazilian federal government, where I led the Ministry of Racial Equality&rsquo;s strategy to pass the higher-education quota law, and I co-authored chapters in <em>Rep&uacute;blica em Notas</em>, a Jabuti Prize semifinalist, on the merit-based civil service.",
-     "From 2026 I will be a postdoctoral researcher at CEBRAP, in S&atilde;o Paulo. I hold a Bachelor&rsquo;s and a Master&rsquo;s in political science from the University of Bras&iacute;lia, and I work in Portuguese, Spanish, and English.",
+     "I hold a Bachelor&rsquo;s, a Master&rsquo;s, and a PhD in political science from the University of Bras&iacute;lia, and during the doctorate I was a visiting researcher at the University of Illinois at Chicago, in 2025&ndash;2026. I work in Portuguese, Spanish, and English.",
   ],
   "research_lead": "I study how organized crime reshapes political life. When armed groups govern a territory &mdash; setting the rules of daily life for the people who live there &mdash; they also change who votes, who can run for office, who wins, and who is exposed to violence. I work these questions out mainly in Rio de Janeiro, with georeferenced administrative microdata.",
   "threads": [
@@ -248,7 +248,7 @@ T = {
   "nav": [("index","Sobre"),("research","Pesquisa"),("writing","Atua&ccedil;&atilde;o p&uacute;blica"),("consulting","Consultoria")],
   "tagline": "Governan&ccedil;a criminal e pol&iacute;tica na Am&eacute;rica Latina",
   "kicker_index": "Cientista pol&iacute;tico",
-  "current": "Doutorando, <strong>Universidade de Bras&iacute;lia</strong> &middot; Pesquisador visitante, <strong>University of Illinois at Chicago</strong>",
+  "current": "Pesquisador de p&oacute;s-doutorado, <strong>CEBRAP</strong> &middot; Doutor pela <strong>Universidade de Bras&iacute;lia</strong>",
   "footer": "&copy; 2026 Igor Novaes Lins",
   "skip_alt": "Igor Novaes Lins",
   "titles": {
@@ -260,17 +260,17 @@ T = {
   },
   "desc": {
      "index": "Igor Novaes Lins estuda governança criminal e política na América Latina — como grupos criminais armados reconfiguram a vida política, tendo o Rio de Janeiro como caso principal.",
-     "research": "Pesquisa sobre governança criminal e o voto, o Estado e o crime, colapso e violência de gênero, e violência política racial na América Latina.",
+     "research": "Pesquisa sobre governança criminal e o voto, o Estado e o crime, colapso e violência de gênero, violência política racial e instituições democráticas na América Latina.",
      "publications": "Artigos, capítulos, relatórios e working papers de Igor Novaes Lins sobre governança criminal, eleições e violência política.",
      "writing": "Artigos, entrevistas e atuação pública de Igor Novaes Lins sobre crime, segurança, clima e democracia.",
-     "consulting": "Dados, mapas e análise reprodutível para organizações que trabalham com cidades, segurança e desigualdade na América Latina.",
+     "consulting": "Ciência social aplicada no cruzamento entre a pesquisa e a política pública, para organizações que trabalham com cidades, segurança e desigualdade na América Latina.",
   },
   "page_h1": {"index":"Sobre","research":"Pesquisa","publications":"Publica&ccedil;&otilde;es","writing":"Atua&ccedil;&atilde;o p&uacute;blica","consulting":"Pesquisa e consultoria"},
   "about": [
-     "Natural de S&atilde;o Paulo, sou cientista pol&iacute;tico, doutorando na Universidade de Bras&iacute;lia e pesquisador visitante na Universidade de Illinois em Chicago. Estudo como o crime organizado e a viol&ecirc;ncia pol&iacute;tica moldam a vida pol&iacute;tica nas cidades latino-americanas, especialmente no Brasil, combinando m&eacute;todos quantitativos e qualitativos.",
+     "Natural de S&atilde;o Paulo, sou cientista pol&iacute;tico, pesquisador de p&oacute;s-doutorado no Centro Brasileiro de An&aacute;lise e Planejamento (CEBRAP). Estudo como o crime organizado e a viol&ecirc;ncia pol&iacute;tica moldam a vida pol&iacute;tica nas cidades latino-americanas, especialmente no Brasil, combinando m&eacute;todos quantitativos e qualitativos.",
      "Meus interesses s&atilde;o governan&ccedil;a criminal, comportamento eleitoral, viol&ecirc;ncia pol&iacute;tica e pol&iacute;tica subnacional na Am&eacute;rica Latina, com aten&ccedil;&atilde;o &agrave; seguran&ccedil;a p&uacute;blica e &agrave; desigualdade racial.",
      "Meu trabalho viveu dentro e fora da universidade. Fui pesquisador no Instituto Igarap&eacute;, atuando em seguran&ccedil;a p&uacute;blica e espa&ccedil;o c&iacute;vico, e assinei um relat&oacute;rio sobre mulheres defensoras do meio ambiente no Peru, apresentado na COP28. Tamb&eacute;m trabalhei no governo federal, onde liderei a estrat&eacute;gia do Minist&eacute;rio da Igualdade Racial para aprova&ccedil;&atilde;o da lei de cotas no ensino superior e coassinei cap&iacute;tulos no <em>Rep&uacute;blica em Notas</em>, semifinalista do Pr&ecirc;mio Jabuti, sobre o sistema de m&eacute;rito do servi&ccedil;o p&uacute;blico.",
-     "A partir de 2026, integro o CEBRAP, em S&atilde;o Paulo, como pesquisador de p&oacute;s-doutorado. Sou bacharel e mestre em ci&ecirc;ncia pol&iacute;tica pela Universidade de Bras&iacute;lia, trabalho em portugu&ecirc;s, espanhol e ingl&ecirc;s.",
+     "Sou bacharel, mestre e doutor em ci&ecirc;ncia pol&iacute;tica pela Universidade de Bras&iacute;lia e, durante o doutorado, fui pesquisador visitante na Universidade de Illinois em Chicago, entre 2025 e 2026. Trabalho em portugu&ecirc;s, espanhol e ingl&ecirc;s.",
   ],
   "research_lead": "Estudo como o crime organizado reconfigura a vida pol&iacute;tica. Quando grupos armados governam um territ&oacute;rio &mdash; e ditam as regras do cotidiano de quem vive ali &mdash;, eles tamb&eacute;m mudam quem vota, quem pode se candidatar, quem vence e quem fica exposto &agrave; viol&ecirc;ncia. Trabalho essas perguntas sobretudo no Rio de Janeiro, com microdados administrativos georreferenciados.",
   "threads": [
@@ -298,7 +298,7 @@ T = {
   "nav": [("index","Sobre m&iacute;"),("research","Investigaci&oacute;n"),("writing","Participaci&oacute;n p&uacute;blica"),("consulting","Consultor&iacute;a")],
   "tagline": "Gobernanza criminal y pol&iacute;tica en Am&eacute;rica Latina",
   "kicker_index": "Polit&oacute;logo",
-  "current": "Doctorando, <strong>Universidad de Brasilia</strong> &middot; Investigador visitante, <strong>University of Illinois at Chicago</strong>",
+  "current": "Investigador posdoctoral, <strong>CEBRAP</strong> &middot; Doctor por la <strong>Universidad de Brasilia</strong>",
   "footer": "&copy; 2026 Igor Novaes Lins",
   "skip_alt": "Igor Novaes Lins",
   "titles": {
@@ -310,17 +310,17 @@ T = {
   },
   "desc": {
      "index": "Igor Novaes Lins estudia la gobernanza criminal y la política en América Latina — cómo los grupos criminales armados transforman la vida política, con Río de Janeiro como caso principal.",
-     "research": "Investigación sobre gobernanza criminal y el voto, el Estado y el crimen, colapso y violencia de género, y violencia política racial en América Latina.",
+     "research": "Investigación sobre gobernanza criminal y el voto, el Estado y el crimen, colapso y violencia de género, violencia política racial e instituciones democráticas en América Latina.",
      "publications": "Artículos, capítulos, informes y working papers de Igor Novaes Lins sobre gobernanza criminal, elecciones y violencia política.",
      "writing": "Artículos, entrevistas y participación pública de Igor Novaes Lins sobre crimen, seguridad, clima y democracia.",
-     "consulting": "Datos, mapas y análisis reproducible para organizaciones que trabajan con ciudades, seguridad y desigualdad en América Latina.",
+     "consulting": "Ciencia social aplicada en el cruce entre la investigación y la política pública, para organizaciones que trabajan con ciudades, seguridad y desigualdad en América Latina.",
   },
   "page_h1": {"index":"Sobre m&iacute;","research":"Investigaci&oacute;n","publications":"Publicaciones","writing":"Participaci&oacute;n p&uacute;blica","consulting":"Investigaci&oacute;n y consultor&iacute;a"},
   "about": [
-     "Natural de S&atilde;o Paulo, soy polit&oacute;logo, doctorando en la Universidad de Brasilia e investigador visitante en la Universidad de Illinois en Chicago. Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
+     "Natural de S&atilde;o Paulo, soy polit&oacute;logo, investigador posdoctoral en el Centro Brasileiro de An&aacute;lise e Planejamento (CEBRAP). Estudio c&oacute;mo el crimen organizado y la violencia pol&iacute;tica moldean la vida pol&iacute;tica en las ciudades latinoamericanas, especialmente en Brasil, combinando m&eacute;todos cuantitativos y cualitativos.",
      "Mis intereses son la gobernanza criminal, el comportamiento electoral, la violencia pol&iacute;tica y la pol&iacute;tica subnacional en Am&eacute;rica Latina, con atenci&oacute;n a la seguridad p&uacute;blica y la desigualdad racial.",
      "Mi trabajo vivi&oacute; dentro y fuera de la universidad. Fui investigador en el Instituto Igarap&eacute;, trabajando en seguridad p&uacute;blica y espacio c&iacute;vico, y firm&eacute; un informe sobre mujeres defensoras del medio ambiente en Per&uacute;, presentado en la COP28. Tambi&eacute;n trabaj&eacute; en el gobierno federal, donde lider&eacute; la estrategia del Ministerio de Igualdad Racial para la aprobaci&oacute;n de la ley de cuotas en la educaci&oacute;n superior, y coescrib&iacute; cap&iacute;tulos en <em>Rep&uacute;blica em Notas</em>, semifinalista del Premio Jabuti, sobre el sistema de m&eacute;rito del servicio p&uacute;blico.",
-     "Desde 2026 me incorporo al CEBRAP, en S&atilde;o Paulo, como investigador posdoctoral. Soy licenciado y mag&iacute;ster en ciencia pol&iacute;tica por la Universidad de Brasilia, y trabajo en portugu&eacute;s, espa&ntilde;ol e ingl&eacute;s.",
+     "Soy licenciado, mag&iacute;ster y doctor en ciencia pol&iacute;tica por la Universidad de Brasilia y, durante el doctorado, fui investigador visitante en la Universidad de Illinois en Chicago, entre 2025 y 2026. Trabajo en portugu&eacute;s, espa&ntilde;ol e ingl&eacute;s.",
   ],
   "research_lead": "Estudio c&oacute;mo el crimen organizado reconfigura la vida pol&iacute;tica. Cuando los grupos armados gobiernan un territorio &mdash; y dictan las reglas de la vida cotidiana de quienes viven all&iacute; &mdash;, tambi&eacute;n cambian qui&eacute;n vota, qui&eacute;n puede postularse, qui&eacute;n gana y qui&eacute;n queda expuesto a la violencia. Trabajo estas preguntas sobre todo en R&iacute;o de Janeiro, con microdatos administrativos georreferenciados.",
   "threads": [
@@ -481,7 +481,6 @@ def render_jsonld(lang):
   "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Brasilia"},
   "affiliation": [
     {"@type": "CollegeOrUniversity", "name": "University of Brasilia"},
-    {"@type": "CollegeOrUniversity", "name": "University of Illinois at Chicago"},
     {"@type": "Organization", "name": "CEBRAP"}
   ],
   "knowsAbout": ["Criminal governance","Electoral behavior","Political violence","Organized crime","Public security","Spatial data analysis","Latin American politics","Brazilian politics"],

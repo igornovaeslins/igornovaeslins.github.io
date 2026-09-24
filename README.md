@@ -4,7 +4,7 @@ Personal academic website of **Igor Novaes Lins** — political scientist (crimi
 
 Live at **https://igornovaeslins.github.io**
 
-Trilingual (EN / PT / ES), five pages each (About · Research · Publications · Writing · Consulting), generated from a single script.
+Trilingual (EN / PT / ES), four pages each (About · Research, with Publications · Public engagement · Consulting), generated from a single script.
 
 ## Edit / rebuild
 
