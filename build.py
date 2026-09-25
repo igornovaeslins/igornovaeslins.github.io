@@ -52,7 +52,7 @@ PUB_TAGS = {
     "articles": [["t-governance"], ["t-governance"], ["t-race"], ["t-state"], ["t-institutions"]],
     "chapters": [["t-institutions"], ["t-institutions"]],
     "reports":  [["t-collapse"], ["t-governance", "t-collapse"]],
-    "papers":   [["t-governance"], ["t-governance"], ["t-collapse"], ["t-governance"], ["t-state"], ["t-governance"], ["t-collapse"]],
+    "papers":   [["t-governance"], ["t-governance"], ["t-collapse"], ["t-governance"], ["t-state"], [], ["t-governance"], ["t-collapse"]],
     "data":     [["t-institutions"]],
 }
 
@@ -78,6 +78,7 @@ PUBS_EN = [
         'Lins, I. N. (2026). The two accountings of gendered violence: criminal order, police legitimacy, and recorded violence in Chicago. <em>SSRN</em>. <span class="tag">under review</span><br><a href="https://ssrn.com/abstract=6873281" rel="noopener" target="_blank">ssrn.com/abstract=6873281</a>',
         'Lins, I. N. (2026). Criminal governance and electoral capture in Rio de Janeiro: a spatial typology of the vote (2008&ndash;2024). <span class="venue">Working paper.</span>',
         'Lins, I. N. (2026). Redistributing policing and state lethality under criminal governance. <span class="venue">Working paper.</span>',
+        'Lins, I. N., Fran&ccedil;a, G. S., &amp; Caldas, L. (2026). The shades of waiting: the racial geography of delay in S&atilde;o Paulo&rsquo;s public transport. <span class="venue">Working paper.</span>',
         'Lins, I. N., &amp; Albarrac&iacute;n, J. (2026). When it overflows: the national turn of criminalised politics in Brazilian democracy. <span class="venue">Working paper.</span>',
         'Lins, I. N., &amp; Maia, B. (2026). Who can commit violence? Criminal governance and the reorganization of gender violence (Rio, Bel&eacute;m, Chicago). <span class="venue">Working paper.</span>',
     ]),
@@ -106,10 +107,11 @@ DATASETS = {
 }
 DATASETS["es"] = DATASETS["pt"]
 
-# Status/award chips inside the (English-titled) working papers, localized for PT and ES pages.
+# Status/award chips inside the (English-titled) working papers, localized for PT and ES pages,
+# plus the original title of papers written in Portuguese.
 TAG_TEXT = {
-  "pt": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Pr&ecirc;mio ABCP/Quaest &middot; 1&ordm; lugar", ">under review<": ">em avalia&ccedil;&atilde;o<"},
-  "es": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Premio ABCP/Quaest &middot; primer lugar", ">under review<": ">en evaluaci&oacute;n<"},
+  "pt": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Pr&ecirc;mio ABCP/Quaest &middot; 1&ordm; lugar", ">under review<": ">em avalia&ccedil;&atilde;o<", "The shades of waiting: the racial geography of delay in S&atilde;o Paulo&rsquo;s public transport.": "Os tons da espera: a geografia racial do atraso no transporte coletivo de S&atilde;o Paulo."},
+  "es": {"ABCP&ndash;Quaest Prize &middot; 1st place": "Premio ABCP/Quaest &middot; primer lugar", ">under review<": ">en evaluaci&oacute;n<", "The shades of waiting: the racial geography of delay in S&atilde;o Paulo&rsquo;s public transport.": "Os tons da espera: a geografia racial do atraso no transporte coletivo de S&atilde;o Paulo."},
 }
 
 def localize_tags(lang, items):
@@ -120,11 +122,15 @@ def localize_tags(lang, items):
         out.append(it)
     return out
 
+# Display order of the publication groups: working papers first, then peer-reviewed work.
+GROUP_ORDER = ["papers", "articles", "chapters", "reports", "data"]
+
 def pubs_for(lang):
-    if lang == "en":
-        return PUBS_EN + [("data", DATASETS["en"])]
-    rest = [(k, localize_tags(lang, v) if k == "papers" else v) for k, v in PUBS_EN if k in ("reports", "papers")]
-    return [("articles", PUBS_PT_ARTICLES), ("chapters", PUBS_PT_CHAPTERS)] + rest + [("data", DATASETS[lang])]
+    groups = dict(PUBS_EN)
+    groups["data"] = DATASETS[lang]
+    if lang != "en":
+        groups.update(articles=PUBS_PT_ARTICLES, chapters=PUBS_PT_CHAPTERS, papers=localize_tags(lang, groups["papers"]))
+    return [(k, groups[k]) for k in GROUP_ORDER]
 
 OPEDS = {
   "pt": [
