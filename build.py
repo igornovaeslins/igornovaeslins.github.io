@@ -53,7 +53,7 @@ PUB_TAGS = {
     "chapters": [["t-institutions"], ["t-institutions"]],
     "reports":  [["t-collapse"], ["t-governance", "t-collapse"]],
     "papers":   [["t-governance"], ["t-governance"], ["t-collapse"], ["t-governance"], ["t-state"], [], ["t-governance"], ["t-collapse"]],
-    "data":     [["t-institutions"], ["t-institutions"]],
+    "data":     [["t-institutions"]],
 }
 
 PUBS_EN = [
@@ -99,12 +99,10 @@ PUBS_PT_CHAPTERS = [
 
 DATASETS = {
   "en": [
-    'Lins, I. N. (2026). Brazilian elective office occupancy database (BOCEL), version 1.2. <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a>',
-    'Lins, I. N. (2026). bocel: R package to access the Brazilian elective office occupancy database (BOCEL). <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.24433109" rel="noopener" target="_blank">doi.org/10.5281/zenodo.24433109</a> &middot; <a href="https://github.com/igornovaeslins/bocel-r" rel="noopener" target="_blank">github.com/igornovaeslins/bocel-r</a>',
+    'Lins, I. N. (2026). Brazilian elective office occupancy database (BOCEL), version 1.2. <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a> &middot; R package: <a href="https://doi.org/10.5281/zenodo.24433109" rel="noopener" target="_blank">doi.org/10.5281/zenodo.24433109</a> &middot; <a href="https://github.com/igornovaeslins/bocel-r" rel="noopener" target="_blank">github.com/igornovaeslins/bocel-r</a>',
   ],
   "pt": [
-    'Lins, I. N. (2026). Banco de ocupa&ccedil;&atilde;o de cargos eletivos no Brasil (BOCEL), vers&atilde;o 1.2. <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a>',
-    'Lins, I. N. (2026). bocel: pacote R de acesso ao banco de ocupa&ccedil;&atilde;o de cargos eletivos no Brasil (BOCEL). <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.24433109" rel="noopener" target="_blank">doi.org/10.5281/zenodo.24433109</a> &middot; <a href="https://github.com/igornovaeslins/bocel-r" rel="noopener" target="_blank">github.com/igornovaeslins/bocel-r</a>',
+    'Lins, I. N. (2026). Banco de ocupa&ccedil;&atilde;o de cargos eletivos no Brasil (BOCEL), vers&atilde;o 1.2. <em>Zenodo</em>.<br><a href="https://doi.org/10.5281/zenodo.22896271" rel="noopener" target="_blank">doi.org/10.5281/zenodo.22896271</a> &middot; <a href="https://github.com/igornovaeslins/bocel" rel="noopener" target="_blank">github.com/igornovaeslins/bocel</a> &middot; pacote R: <a href="https://doi.org/10.5281/zenodo.24433109" rel="noopener" target="_blank">doi.org/10.5281/zenodo.24433109</a> &middot; <a href="https://github.com/igornovaeslins/bocel-r" rel="noopener" target="_blank">github.com/igornovaeslins/bocel-r</a>',
   ],
 }
 DATASETS["es"] = DATASETS["pt"]
